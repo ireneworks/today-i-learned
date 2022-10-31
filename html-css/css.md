@@ -44,12 +44,16 @@ dt {
 div {
     background: transparent url(${heartIcon}) top 12px / 20px no-repeat;
 }
+```
 
+```css
 /* 클릭 영역을 고려해서 Margin, Padding 설정하기 */
 a {
     padding: 12px 0 24px;
 }
+```
 
+```css
 /* 선택자를 잘 활용하기 */
 div > span {
     font-weight: 500;
@@ -58,7 +62,9 @@ div > span {
 div + span {
     color: #888888;
 }
+```
 
+```css
 /* 요소 뒤에 추가 */
 &::after {
     content: "|";
@@ -68,7 +74,9 @@ div + span {
 &:last-child::after {
     display: none;
 }
+```
 
+```css
 /* flex */
 .parent {
     display: flex;
@@ -78,12 +86,16 @@ div + span {
         gap: 24px;
     }
 }
+```
 
+```css
 /* 윈도우에서는 다르게 보이기 때문에 원하는 곳에만 스크롤 바가 생길 수 있게 */
 div {
     overflow-x :hidden;
 }
+```
 
+```css
 /* MOBILE FIRST라면 default는 MOBILE에 맞추어 작성하기 */
 main {
     background: #ffffff;
