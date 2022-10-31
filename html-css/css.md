@@ -2,7 +2,7 @@
 description: Cascading Style Sheets
 ---
 
-# CSS
+# 스타일 CSS
 
 CSS로 하는게 비용이 적게 들기 때문에 가능하다면 CSS로 처리하는게 좋다.
 
@@ -21,7 +21,7 @@ main {
 ```
 
 ```css
-/* ellipsis */
+/* ellipsis(truncation) */
 
 dt {
     overflow: hidden;

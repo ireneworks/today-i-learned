@@ -4,23 +4,23 @@
 
 ## 🖥 HTML/CSS
 
-* [HTML](html-css/html.md)
-* [CSS](html-css/css.md)
+* [구조 HTML](html-css/html.md)
+* [스타일 CSS](html-css/css.md)
 
 ## 💗 개발 Development
 
-* [개발이란 How to develop](development/how-to-develop.md)
+* [개발 Implementation](development/implementation.md)
 * [단어 Glosarry](development/intro.md)
 
 ## ✨ 자바스크립트 Javascript <a href="#js-playground" id="js-playground"></a>
 
-* [import & export](js-playground/import-and-export.md)
-* [표현식과 문 Expression & Statement](js-playground/expression-and-statement.md)
-* [Truth & Falsy](js-playground/truth-and-falsy.md)
 * [변수 Variable](js-playground/variable.md)
 * [호이스팅 Hoisting](js-playground/hoisting.md)
+* [표현식과 문 Expression & Statement](js-playground/expression-and-statement.md)
 * [함수 Function](js-playground/function.md)
+* [참과 거짓 값 Truth & Falsy](js-playground/truth-and-falsy.md)
 * [배열 Array](js-playground/array.md)
+* [import & export](js-playground/import-and-export.md)
 * [스택과 큐 Stack & Queue](js-playground/stack-and-queue.md)
 * [쿠키 Cookie](js-playground/cookie.md)
 * [로컬스토리지 Local Storage](js-playground/local-storage.md)

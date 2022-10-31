@@ -2,7 +2,7 @@
 description: Hyper Text Markup Language
 ---
 
-# HTML
+# 구조 HTML
 
 {% hint style="info" %}
 "Web accessibility means that websites, tools, and technologies are designed and developed so that people with disabilities can use them." **W3C**
@@ -37,4 +37,11 @@ description: Hyper Text Markup Language
 </strong><strong>&#x3C;/ul></strong></code></pre>
 
 <pre class="language-html"><code class="lang-html"><strong>&#x3C;!-- 이미지를 볼 수 없는 경우 -->
+</strong><strong>
 </strong><strong>&#x3C;img src={image} alt="이미지를 볼 수 없을 때 나올 설명" title="툴팁에 나올 설명" /></strong></code></pre>
+
+```html
+<!-- 최대한 간결하게 -->
+
+<button></button>
+```
