@@ -43,5 +43,5 @@ description: Hyper Text Markup Language
 ```html
 <!-- 최대한 간결하게 -->
 
-<button></button>
+<button>확인</button>
 ```
