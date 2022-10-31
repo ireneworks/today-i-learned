@@ -21,7 +21,7 @@ main {
 ```
 
 ```css
-/* 말 줄임표 */
+/* ellipsis */
 
 dt {
     overflow: hidden;
@@ -40,7 +40,8 @@ dt {
 ```
 
 ```css
-/* 의미없는 이미지/아이콘은 백그라운드로 노출하기 */
+/* 의미없는 이미지/아이콘은 백그라운드 처리 */
+
 div {
     background: transparent url(${heartIcon}) top 12px / 20px no-repeat;
 }
@@ -48,6 +49,7 @@ div {
 
 ```css
 /* 클릭 영역을 고려해서 Margin, Padding 설정하기 */
+
 a {
     padding: 12px 0 24px;
 }
@@ -55,6 +57,7 @@ a {
 
 ```css
 /* 선택자를 잘 활용하기 */
+
 div > span {
     font-weight: 500;
 }
@@ -65,19 +68,22 @@ div + span {
 ```
 
 ```css
-/* 요소 뒤에 추가 */
+/* 요소 뒤에 추가 (&는 this와 유사) */
+
 &::after {
     content: "|";
 }
 
 /* 마지막 요소 선택 */
+
 &:last-child::after {
     display: none;
 }
 ```
 
 ```css
-/* flex */
+/* flex 단 나누기 */
+
 .parent {
     display: flex;
     
@@ -90,6 +96,7 @@ div + span {
 
 ```css
 /* 윈도우에서는 다르게 보이기 때문에 원하는 곳에만 스크롤 바가 생길 수 있게 */
+
 div {
     overflow-x :hidden;
 }
@@ -97,6 +104,7 @@ div {
 
 ```css
 /* MOBILE FIRST라면 default는 MOBILE에 맞추어 작성하기 */
+
 main {
     background: #ffffff;
     

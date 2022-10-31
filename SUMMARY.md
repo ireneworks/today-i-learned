@@ -9,7 +9,7 @@
 
 ## 💗 개발 Development
 
-* [개발이란](development/undefined.md)
+* [개발이란 How to develop](development/how-to-develop.md)
 * [단어 Glosarry](development/intro.md)
 
 ## ✨ 자바스크립트 Javascript <a href="#js-playground" id="js-playground"></a>

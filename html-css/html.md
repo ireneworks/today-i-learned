@@ -25,7 +25,8 @@ description: Hyper Text Markup Language
 </dl>
 ```
 
-<pre class="language-html"><code class="lang-html"><strong>&#x3C;!-- 리스트인 경우 -->
+<pre class="language-html"><code class="lang-html"><strong>&#x3C;!-- list -->
+</strong><strong>
 </strong><strong>&#x3C;ul>
 </strong><strong>    &#x3C;li>
 </strong><strong>        &#x3C;a href="#">순서가 없는 링크 1&#x3C;/a>
