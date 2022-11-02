@@ -37,13 +37,19 @@ dt {
 @media screen and (min-width: ${NARROW_PC}) {
     display: none;
 }
+
+/* 해당 미디어에만 적 */
+
+@media print only (min-width: ${TABLET}) {
+    background: #111111;
+}
 ```
 
 ```css
 /* 의미없는 이미지/아이콘은 백그라운드 처리 */
 
 div {
-    background: transparent url(${heartIcon}) top 12px / 20px no-repeat;
+    background: transparent url(${heartIcon}) left 12px bottom 12px / 20px no-repeat;
 }
 ```
 
