@@ -38,7 +38,7 @@ dt {
     display: none;
 }
 
-/* 해당 미디어에만 적 */
+/* 해당 미디어에만 적용 */
 
 @media print only (min-width: ${TABLET}) {
     background: #111111;
