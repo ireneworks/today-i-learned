@@ -18,7 +18,7 @@
 
 ```bash
 $ git add <추가할 파일>
-$ git add . //현재 디렉터리의 모든 변경 사항을 추가
+$ git add . //현재 디렉터리의 모든 파일 추가
 ```
 
 
@@ -71,7 +71,7 @@ $ git diff <커밋 고유 번호 1>..<커밋 고유 번호 2>
 ### git reset
 
 ```shell
-$ git reset <커밋 고유 번호> --hard //돌아가려는 커
+$ git reset <커밋 고유 번호> --hard //돌아가려는 커밋
 ```
 
 ### git revert
