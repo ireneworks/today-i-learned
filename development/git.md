@@ -36,6 +36,7 @@ $ git status //현 파일 상태 확인
 $ git add . //현재 디렉터리의 모든 변경 사항을 추가
 $ git commit
 $ git commit -m "initial commit" //메시지 추가
+$ git commit -am "commit" //자동 추가
 ```
 
 
@@ -45,8 +46,6 @@ $ git commit -m "initial commit" //메시지 추가
 <figure><img src="../.gitbook/assets/lifecycle.png" alt=""><figcaption><p>File Life Cycle <a href="https://git-scm.com/book/ko/v2/Git%EC%9D%98-%EA%B8%B0%EC%B4%88-%EC%88%98%EC%A0%95%ED%95%98%EA%B3%A0-%EC%A0%80%EC%9E%A5%EC%86%8C%EC%97%90-%EC%A0%80%EC%9E%A5%ED%95%98%EA%B8%B0">1)</a></p></figcaption></figure>
 
 커밋 대기 상태
-
-stage - repository
 
 
 
@@ -75,4 +74,6 @@ $ git reset <커밋 고유 번호> --hard //돌아가려는 커밋
 ```
 
 ### git revert
+
+
 
