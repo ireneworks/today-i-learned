@@ -29,6 +29,15 @@ dt {
     text-overflow: ellipsis;
     white-space: nowrap;
 }
+
+/* 줄 단 */
+dt {
+    overflow: hidden;
+    word-break: break-all;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
 ```
 
 ```css
