@@ -30,7 +30,7 @@ dt {
     white-space: nowrap;
 }
 
-/* 줄 단 */
+/* 줄 단위 */
 dt {
     overflow: hidden;
     word-break: break-all;
