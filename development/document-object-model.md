@@ -22,12 +22,91 @@ console.log(value); // 2
 
 //시멘틱 뿐만 아니라 뉘앙스(목적)까지 제한해서 단순화하자 -> 원하는 것이 무엇인지 정리하자</code></pre>
 
-DOM 인터페이스, 프로퍼티, 메소드를 다 외울 순 없으니 파악하는 방법을 알아보자..
-
 
 
 ### 인터페이스 Interface
 
 인터페이스는 만들어진 DOM 트리에 접근/조작하기 위함이고, 가장 최상단에 Document
 
-<figure><img src="../.gitbook/assets/DOMtree.gif" alt=""><figcaption><p>돔 트D OM Tree <a href="http://staff.washington.edu/weller/css/DOM1.html">1)</a></p></figcaption></figure>
+```javascript
+document.getElementById("id"); //돔에 접근하고 조작할 수 있는 인터페이스
+```
+
+<figure><img src="../.gitbook/assets/DOMtree.gif" alt=""><figcaption><p>돔 트리 DOM Tree <a href="http://staff.washington.edu/weller/css/DOM1.html">1)</a></p></figcaption></figure>
+
+
+
+자바스크립트는 사전 처리를 하지 않아도 이미 빌트인 되어 있기 때문에 DOM 인터페이스를 이용할 수 있다. DOM은 오브젝트이고, 자바스크립트도 오브젝트 기반이기 때문에 가능한 것 같다...?
+
+
+
+```javascript
+//객체는 프로퍼티를 갖고 있으며, 프로퍼티는 key:value 형태이고 
+//프로퍼티는 속성 attribute를 가짐 
+//attribute는 프로퍼티가 어떻게 사용할 수 있는지 i.e. Writable 등
+//프로퍼티에는 Primitive value, object, function을 넣을 수 있음
+
+const obj = {
+    key: value,
+}
+```
+
+함수는 정적 스코프, 실행 콘텍스트를 펼침
+
+```javascript
+const arr = ["apple", "banana"]; //new 키워드를 사용하지 않아도 인스턴스 생성
+const arr1 = new Arrary ("apple", "banana");
+
+const obj = arr.join(","); //Array 메소드 apple,banana
+const str = obj.split(","); //String 메소드 ["apple", "banana"]
+```
+
+```javascript
+//func vs method 
+
+Array.isArray() //함수 오브젝트의 프로퍼티 오브젝트.function()
+Array.prototype.concat() //메소드 prototype, __proto__와 연결되어 있기 때문에
+```
+
+함수는 인스턴스에 포함되지 않는다?
+
+함수는 callable
+
+Global Object는 `Window.location` 과 같이 불리는 것 이고 자바스크립트에서 만든게 아님
+
+
+
+실행 콘텍스트
+
+렉시컬 호출된 함수에 작성된 변수, 파라미터 등 모든 것을 {key: value} 형태로 설정 이 안에서 함수 블록의 코드 실행
+
+외부 렉시컬 함수 외부에 있는 변수/함수를 참조했다면 여기에 설정 -> 클로저 (실행 콘텍스트가 펼쳐진 함수 기준으로 함수 밖은 클로저)
+
+
+
+스코프
+
+
+
+```html
+<!-- Element의 범위를 나타내기 위해 시작과 마침 태그를 이용해서 표현 -->
+<!-- tagName와 nodeName 같음 -->
+<!-- DOM은 Element 기준 -->
+
+<p>content</p>
+```
+
+aria 관련 프로퍼티는 접근성 관련
+
+
+
+XHTML, HTML 4.5는 마크업 중심으로 자바스크립트가 필요 없었으나,
+
+HTML 5는 애플리케이션 중심으로 자바스크립트가 필요해졌다 -> Element 뿐만아니라 api 들도 추가됨
+
+HTML은 콘텐츠를 제공하기 위함, 표현은 CSS 역할
+
+
+
+
+
