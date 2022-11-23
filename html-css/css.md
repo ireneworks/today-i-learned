@@ -43,7 +43,8 @@ dt {
 /* truncation */
 
 dt {
-    word-break: keep-all;
+    word-break: break-word;
+    word-wrap: break-word;
 }
 ```
 
