@@ -108,10 +108,12 @@ div + span {
 
 .parent {
     display: flex;
-     gap: 24px;
+    gap: 24px;
     
     .child {
+    
         /* flex 내 자식 요소 grow, shrink에 대해서 이해하기 */
+        
         flex: 1 1 40%;
     }
 }
