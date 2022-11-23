@@ -12,11 +12,13 @@ description: Hyper Text Markup Language
 
 ```html
 <!-- 의미 있는 텍스트인 경우 -->
+
 <p>검색 결과가 없습니다.</p>
 ```
 
 ```html
 <!-- dl에는 dt, dd가 아닌 요소는 포함될 수 없음 (div, script, template 제외) -->
+
 <dl>
     <div>
         <dt>단어</dt>
@@ -48,6 +50,7 @@ description: Hyper Text Markup Language
 
 ```html
 <!-- section vs div -->
+
 <section>주로 헤딩 태그를 포함하고 챕터 또는 represent a standalone, atomic unit</section>
 <div>특별한 의미 없는 태그로 레이아웃과 스타일을 주기 위함 또는 정말 사용할 태그가 없을 때 사용해보자</div>
 ```
