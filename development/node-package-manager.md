@@ -1,22 +1,28 @@
-# 패키지 매니저 NPM
+---
+description: NPM vs Yarn Berry
+---
 
-자스 이용한 서버 사이드 랭기지
+# 노드 패키지 매니저 Node Package Manager
 
-npm !== node os 써봣나
-
-노드는 single thread 큰 연산은 자바가 , 단순 연산은 노드로
-
-java = multi thread language&#x20;
+Node.js는 자바스크립트를 이용한 서버 사이드 언어
 
 
 
-노드  php 스크립트 언어 > 자바
+npm !== Node.js(편의상 노드)
 
 
 
-패키지 관리 npm
+노드는 single thread 단순 연산
 
-노드에서 도는 패키지 매니저&#x20;
+자바는 multi thread 큰 연산
+
+
+
+노드, php (스크립틑 언어) -> 자바
+
+
+
+노드 위에서 도는 노드 패키지 매니저 npm
 
 
 
@@ -28,7 +34,7 @@ verdaccio private repo
 
 
 
-npm s cript 알아야함
+npm script 알아야함
 
 npx&#x20;
 
