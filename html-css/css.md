@@ -43,8 +43,7 @@ dt {
 /* truncation */
 
 dt {
-    word-break: break-word;
-    word-wrap: break-word;
+    word-break: keep-all;
 }
 ```
 
@@ -58,7 +57,7 @@ dt {
 /* 해당 미디어에만 적용 */
 
 @media print only (min-width: ${TABLET}) {
-    background: #111;
+    background: #111111;
 }
 ```
 
@@ -86,7 +85,7 @@ div > span {
 }
 
 div + span {
-    color: #888;
+    color: #888888;
 }
 ```
 
@@ -132,10 +131,10 @@ div {
 /* MOBILE FIRST라면 default는 MOBILE에 맞추어 작성하기 */
 
 main {
-    background: #fff;
+    background: #ffffff;
     
     @media screen and (min-width: ${NARROW_PC}) {
-        background: #eee;
+        background: #eeeeee;
     }
 }
 ```
