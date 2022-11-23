@@ -128,3 +128,27 @@ main {
     }
 }
 ```
+
+```css
+/* li는 inline 속성이기에 button의 영역을 잡을 땐 block 등으로 변경 필요 */
+
+li {
+    display: block;
+    
+    button {
+        /* 버튼 스타일 */
+    }
+}
+```
+
+```css
+/* flex 내 자식 요소 grow, shrink에 대해서 이해하기 */
+
+parent {
+    display: flex;
+    
+    children {
+        flex: 1 1 100%; 
+    }
+}
+```

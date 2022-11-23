@@ -1,4 +1,4 @@
-# 참과 거짓 값 Truth & Falsy
+# Truth & Falsy
 
 ### Falsy
 
@@ -15,12 +15,3 @@ Nan
 {% endcode %}
 
 위 Falsy값을 제외한 나머지는 모두 Truthy이다.
-
-
-
-```javascript
-state === ("pending" || "accepted") 
-//"pending"은 이미 truthy이기 때문에 state === "pending"이 되어서 true
-
-state === "pending" || state === "accepted"
-```
