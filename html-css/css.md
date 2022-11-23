@@ -21,7 +21,7 @@ main {
 ```
 
 ```css
-/* ellipsis(truncation) */
+/* ellipsis */
 
 dt {
     overflow: hidden;
@@ -31,12 +31,19 @@ dt {
 }
 
 /* 줄 단위 */
+
 dt {
     overflow: hidden;
     word-break: break-all;
     text-overflow: ellipsis;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
+}
+
+/* truncation */
+
+dt {
+    word-break: keep-all;
 }
 ```
 
