@@ -51,6 +51,6 @@ description: Hyper Text Markup Language
 ```html
 <!-- section vs div -->
 
-<section>주로 헤딩 태그를 포함하고 챕터 또는 represent a standalone, atomic unit</section>
+<section>주로 헤딩 태그를 포함하고 챕터, 검색 결과, represent a standalone, atomic unit</section>
 <div>특별한 의미 없는 태그로 레이아웃과 스타일을 주기 위함 또는 정말 사용할 태그가 없을 때 사용해보자</div>
 ```
