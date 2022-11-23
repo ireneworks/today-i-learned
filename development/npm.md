@@ -18,7 +18,7 @@ npm !== Node.js(편의상 노드)
 
 
 
-노드, php (스크립틑 언어) -> 자바
+대부분은 노드, php (스크립트 언어) -> 자바
 
 
 
@@ -26,35 +26,33 @@ npm !== Node.js(편의상 노드)
 
 
 
-npm  resistry
+npm public registry 에서 일반적으론 다운 받고,
 
-npm public registry&#x20;
-
-verdaccio private repo
+private  repo인 verdaccio 등도 있음
 
 
 
-npm script 알아야함
+npm script 알아야함 (명령어)
 
-npx&#x20;
+npx 중요
 
 
 
 ```
 npm init //package.json > cra는 자동 생성
-npm outdated
+npm outdated //패키지 중에 업데이트가 필요한게 있는지
 npm start (scripts)
 npx  // 
 
-.bin 명령어 등록 > 해야 cra  쓸 수 있음 패키지 등록
+.bin 명령어 등록 > 해야 cra에서 쓸 수 있음 패키지 등록
 npx > 
---package 어떤 명령어로 할지 선택
+--package 어떤 명령어로 할지 선택??
 
-npx 레파지토리에서 임시로 불러오고 그 파일은 사라진다
-항상 최신의 버전의 cra 만들고 싶다
-글로벌에 최신꺼를 설치후 cra 완료 되면 삭제됨
+npx 레파지토리(registry)에서 임시로 불러오고 그 파일은 사라진다
+예를 들면 cra인데, 항상 최신의 버전의 cra 만들기 위해 cra는 npx로 설치됨
+글로벌에 최신 버젼을 설치 후 cra 완료되면 삭제됨
 
-script {start 제외하고 npm run 쓰고 커스텀 명령어는 무조건 붙혀서}
+script //npm start 제외하고 npm run 쓰고 커스텀 명령어는 무조건 붙히고 사용해야함
 
 ```
 
@@ -66,55 +64,54 @@ devDependency
 peerDependency
 ```
 
-모듈을 만드러서 배포할 때 문제
+각 디펜던시는 모듈(패키지)를 만들어서 배포할 때 중요하게 쓰이는 부분
 
 제공하는 사람은 필요하고
 
-받는 사람은 필요없음 npm 패키지를 받아서 쓰는 사람
+받는 사람은 필요없음 (npm 패키지를 받아서 쓰는 사람)
+
+
 
 테스트/개발/웹팩/프리티어/린트 개발 과정에서 필요한 거는 devDep
 
 dep 받는 사람도 필요한 것
 
-peerDep 이패키지를 사용하려는거가 어떤 패키지 최소 버젼
+peerDep 이 패키지를 사용하려고 할때 어떤 패키지 최소 버젼이 필요한 것을 알려줌
 
 
 
-버전은&#x20;
+버전은 주로
 
-짝수 stable LTS
+짝수 stable LTS(Long Term Support)
 
 홀수 exp 실험적인 버전
 
 
 
-nvm
+nvm node version management
 
-node version management
-
-여러 버전 사용하려고할때
+여러 버전 사용하려고할때 이용
 
 노드는 내 데스크톱에 깔려있음
 
-nvm use  v14
+```
+nvm use v14 //어떤 버젼을 이용할 건지
+nvm 설치하고 node를 설치해야함 //nvm에서 이미 설정된 노드를 수정하는게 복잡하기 때문에 무조건 nvm 먼저 설치
 
-nvm  > node 설치해야함 (수정하는 과정이 복잡하기 때문에 무조건 nvm 먼저 설치)
-
-node 명령어는&#x20;
-
-
-
-cli #은 주석
+cli에서 #은 주석
+```
 
 
 
 
 
-yarn이란
+### Yarn이란
 
-노드 js를 위한 새로운 패키지 매니징
+노드를 위한 새로운 패키지 매니저
 
 yarn > yarn berry  LTS 최신 버젼&#x20;
+
+
 
 왜 나왔나
 
