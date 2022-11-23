@@ -108,10 +108,11 @@ div + span {
 
 .parent {
     display: flex;
+     gap: 24px;
     
     .child {
-        flex: 1 1 50%;
-        gap: 24px;
+        /* flex 내 자식 요소 grow, shrink에 대해서 이해하기 */
+        flex: 1 1 40%;
     }
 }
 ```
@@ -144,18 +145,6 @@ li {
     
     button {
         /* 버튼 스타일 */
-    }
-}
-```
-
-```css
-/* flex 내 자식 요소 grow, shrink에 대해서 이해하기 */
-
-parent {
-    display: flex;
-    
-    children {
-        flex: 1 1 100%; 
     }
 }
 ```
