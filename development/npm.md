@@ -231,9 +231,11 @@ zero-install 가능
 
 
 
+### Reference
 
+{% embed url="https://toss.tech/article/node-modules-and-yarn-berry" %}
 
+{% embed url="https://egas.tistory.com/107" %}
 
-
-
+{% embed url="https://techblog.woowahan.com/7976/" %}
 
