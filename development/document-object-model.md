@@ -86,8 +86,6 @@ Global Object는 `Window.location` 과 같이 불리는 것 이고 자바스크�
 
 스코프
 
-
-
 ```html
 <!-- Element의 범위를 나타내기 위해 시작과 마침 태그를 이용해서 표현 -->
 <!-- tagName와 nodeName 같음 -->
@@ -112,6 +110,50 @@ HTML은 콘텐츠를 제공하기 위함, 표현은 CSS 역할
 <h1>1. title</h1>
 <h2>1-1. title</h2>
 ```
+
+
+
+```html
+<!-- section은 heading과 footer를 포함할 수 있고 하나의 그룹이라고 봐도 되지 않을까? -->
+
+<section> 
+    article, aside, nav, section이 포함될 수 있다.
+    메인 콘텐츠와 관련이 있어야한다.
+    <aside> 
+        광고와 같이 메인과 관련이 없는 것
+    </aside>
+    <article> 
+        메인 콘텐츠가 아닌 것의 영역을 정의할 때 사용할 수 있다. 
+        위젯 또는 리뷰에 사용할 수 있음
+    </article>
+</section>
+
+```
+
+
+
+
+
+<figure><img src="../.gitbook/assets/HTML-Content-Models.gif" alt=""><figcaption><p>Element Categories <a href="https://schoolsofweb.com/html-content-models/">2)</a></p></figcaption></figure>
+
+Element들은 카테고리에 속해있을 수 있다
+
+
+
+```html
+<!-- option이 연속된 경우 마침 태그를 작성하지 않아도 됨, 가능한 케이스가 있다 -->
+
+<select id="drop-down" size=2>
+    <option> 1번
+    <option> 2번
+</select>
+```
+
+HTMLElement
+
+프로퍼티 메소드가 포함될 수 있음
+
+Node 옵션 엘리먼트에 설정될 수 있음
 
 
 
