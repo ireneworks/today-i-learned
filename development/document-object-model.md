@@ -16,11 +16,13 @@ const value = getValue(1);
 console.log(value); // 2
 ```
 
-<pre><code><strong>Semantic + Nuance 
-</strong>
+```
+Semantic + Nuance 
+
 모자를 쓰다 vs 글을 쓰다 //쓰다라는 단어는 같지만, 행동이 아예 다름
 
-//시멘틱 뿐만 아니라 뉘앙스(목적)까지 제한해서 단순화하자 -> 원하는 것이 무엇인지 정리하자</code></pre>
+//시멘틱 뿐만 아니라 뉘앙스(목적)까지 제한해서 단순화하자 -> 원하는 것이 무엇인지 정리하자
+```
 
 
 
@@ -154,6 +156,48 @@ HTMLElement
 프로퍼티 메소드가 포함될 수 있음
 
 Node 옵션 엘리먼트에 설정될 수 있음
+
+
+
+문장으로 요구사항을 만들어보자 (시나리오 짜기)
+
+sudo코드로 진행봐도 괜찮을 것 같다
+
+사용자 중심 스토리 태스크를 구성해보자
+
+그 이후에 개발을 고민하자
+
+
+
+자바스크립트는 ECMASciprt 스펙이다
+
+스펙이 실무 기준이다
+
+
+
+DOM은 동적으로 콘텐츠 제공, 사용자와 인터렉션 할 수 있도록 접근 및 조작하기 위함이다
+
+DOM의 인터페이스, 프로퍼티, 메소드를 잘 감 잡아보자
+
+
+
+W3C World Wide Web Consortium
+
+WHATWG DOM 스펙 작성 모든 것을 주관
+
+Web Applications Working Group DOM확장, UI Event&#x20;
+
+
+
+DOM은 버젼이 아닌 레벨을 이용함
+
+DOM Living Standard
+
+HTML Living Standard
+
+
+
+
 
 
 

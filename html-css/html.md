@@ -27,20 +27,24 @@ description: Hyper Text Markup Language
 </dl>
 ```
 
-<pre class="language-html"><code class="lang-html"><strong>&#x3C;!-- list -->
-</strong><strong>
-</strong><strong>&#x3C;ul>
-</strong><strong>    &#x3C;li>
-</strong><strong>        &#x3C;a href="#">순서가 없는 링크 1&#x3C;/a>
-</strong><strong>    &#x3C;/li>
-</strong><strong>    &#x3C;li>
-</strong><strong>        &#x3C;a href="#">순서가 없는 링크 2 &#x3C;/a>
-</strong><strong>    &#x3C;/li>
-</strong><strong>&#x3C;/ul></strong></code></pre>
+```html
+<!-- list -->
 
-<pre class="language-html"><code class="lang-html"><strong>&#x3C;!-- 이미지를 볼 수 없는 경우 -->
-</strong><strong>
-</strong><strong>&#x3C;img src={image} alt="이미지를 볼 수 없을 때 나올 설명" title="툴팁에 나올 설명" /></strong></code></pre>
+<ul>
+    <li>
+        <a href="#">순서가 없는 링크 1</a>
+    </li>
+    <li>
+        <a href="#">순서가 없는 링크 2 </a>
+    </li>
+</ul>
+```
+
+```html
+<!-- 이미지를 볼 수 없는 경우 -->
+
+<img src={image} alt="이미지를 볼 수 없을 때 나올 설명" title="툴팁에 나올 설명" />
+```
 
 ```html
 <!-- 최대한 간결하게 -->
