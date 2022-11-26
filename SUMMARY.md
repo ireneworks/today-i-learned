@@ -14,11 +14,12 @@
 * [깃 Git](development/git.md)
 * [해시 Hash](development/hash.md)
 * [노드 패키지 매니저 Node Package Manager](development/npm.md)
-* [문서객체모델 Document Object Model](development/document-object-model/README.md)
+* [문서객체모델 Document Object Model](development/document-object-model.md)
   * [개요 Overview](development/document-object-model/overview.md)
   * [도큐먼트 Document](development/document-object-model/document.md)
-  * [Page 2](development/document-object-model/page-2.md)
-  * [HTMLElement](development/document-object-model/htmlelement.md)
+  * [getMethod](development/document-object-model/getmethod.md)
+  * [HTMLCollection](development/document-object-model/htmlcollection.md)
+  * [NodeList](development/document-object-model/nodelist.md)
 
 ## ✨ 자바스크립트 Javascript <a href="#js-playground" id="js-playground"></a>
 
