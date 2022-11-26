@@ -44,6 +44,6 @@ el.setAttribute("name", "nickname");
 //IDL 속성
 
 const el = document.getElementById("category");
-el.tabIndex = 77 자바스크립트 형태로 이름이 변경됨,  key: value 형태로 프로퍼티가 바인딩됨 ??
- 
+el.tabIndex = 77; // 자바스크립트 형태로 이름이 변경됨,  key: value 형태로 프로퍼티가 바인딩됨 ??
+ // 카멜케이스
 ```
