@@ -17,12 +17,13 @@
 * [문서객체모델 Document Object Model](development/document-object-model.md)
   * [개요 Overview](development/document-object-model/overview.md)
   * [도큐먼트 Document](development/document-object-model/document.md)
-  * [getMethod](development/document-object-model/getmethod.md)
   * [HTMLCollection](development/document-object-model/htmlcollection.md)
+  * [getMethod](development/document-object-model/getmethod.md)
   * [NodeList](development/document-object-model/nodelist.md)
   * [childNodes, children](development/document-object-model/childnodes-children.md)
   * [Event](development/document-object-model/event.md)
   * [live, static](development/document-object-model/live-static.md)
+  * [Element](development/document-object-model/element.md)
 
 ## ✨ 자바스크립트 Javascript <a href="#js-playground" id="js-playground"></a>
 

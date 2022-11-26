@@ -26,7 +26,4 @@ el.getElementsByTagName("button"); //element인 경우 서브트리
 //namespace란 "http://naver.com" 같은 것??
 
 const el = document.getElementsByTagNameNS(namespace, "div") //???? namespace를 주지 않으면 디폴트 값이 설정됨
-
-
-
 ```
