@@ -44,6 +44,9 @@ el.setAttribute("name", "nickname");
 //IDL 속성 값은 string이 아닐 수도 있음
 
 const el = document.getElementById("category");
-el.tabIndex = 77; // 자바스크립트 형태로 이름이 변경됨,  key: value 형태로 프로퍼티가 바인딩됨 ??
- // 카멜케이스
+el.tabIndex = 77; // 자바스크립트 형태로 이름이 변경됨,  category = {id: "", value: ""} 바인딩됨
+ // 카멜케이스, accessKey, tabIndex 또는 spellcheck, autofocus 등 다름
+ 
+ //title은 글로벌 속성이기 때문에 설정하지 않으면 "" 디폴트값임 -> 엘리먼트에 따라 디폴트값이 다르기 때문에 뭔지 찾아봐야하겠네
+ const style = el.style["font-size"]; // "" 아마도  ?  아마도  있지만 디폴트 값이 반환될 듯
 ```
