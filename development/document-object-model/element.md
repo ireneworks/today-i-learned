@@ -33,7 +33,7 @@ Interface Definition Language
 
 
 ```javascript
-//content 속성
+//content 속성 반환 되는 값이 무조건 string
 
 const el = document.getElementById("category"); 
 const value = el.getAttribute("tabindex"); //설정된 속성인 tabindex 값을 담음
@@ -41,7 +41,7 @@ el.setAttribute("name", "nickname");
 ```
 
 ```javascript
-//IDL 속성
+//IDL 속성 값은 string이 아닐 수도 있음
 
 const el = document.getElementById("category");
 el.tabIndex = 77; // 자바스크립트 형태로 이름이 변경됨,  key: value 형태로 프로퍼티가 바인딩됨 ??
