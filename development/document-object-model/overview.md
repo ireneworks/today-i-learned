@@ -1,4 +1,4 @@
-# 문서객체모델 Document Object Model
+# 개요 Overview
 
 ### 시맨틱 Semantic
 
@@ -34,7 +34,7 @@ Semantic + Nuance
 document.getElementById("id"); //돔에 접근하고 조작할 수 있는 인터페이스
 ```
 
-<figure><img src="../.gitbook/assets/DOMtree.gif" alt=""><figcaption><p>돔 트리 DOM Tree <a href="http://staff.washington.edu/weller/css/DOM1.html">1)</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/DOMtree.gif" alt=""><figcaption><p>돔 트리 DOM Tree <a href="http://staff.washington.edu/weller/css/DOM1.html">1)</a></p></figcaption></figure>
 
 
 
@@ -136,7 +136,7 @@ HTML은 콘텐츠를 제공하기 위함, 표현은 CSS 역할
 
 
 
-<figure><img src="../.gitbook/assets/HTML-Content-Models.gif" alt=""><figcaption><p>Element Categories <a href="https://schoolsofweb.com/html-content-models/">2)</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/HTML-Content-Models.gif" alt=""><figcaption><p>Element Categories <a href="https://schoolsofweb.com/html-content-models/">2)</a></p></figcaption></figure>
 
 Element들은 카테고리에 속해있을 수 있다
 
