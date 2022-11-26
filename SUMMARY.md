@@ -2,12 +2,12 @@
 
 * [개요 Overview](README.md)
 
-## 🖥 HTML/CSS
+## 📝 HTML/CSS
 
 * [구조 HTML](html-css/html.md)
 * [스타일 CSS](html-css/css.md)
 
-## 💗 개발 Development
+## 📦 개발 Development
 
 * [개발 Implementation](development/undefined.md)
 * [단어 Glosarry](development/intro.md)
