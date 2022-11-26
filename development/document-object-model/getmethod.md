@@ -15,3 +15,18 @@ const id = document.getElementById("id"); // 가장 가까운 엘리먼트를 �
 
 const el = document.getElementsByClassName("category"); //category를 포함하는 모든 엘리먼트를 객체로 반환
 ```
+
+```javascript
+//document vs element
+
+const el = document.getElementsByTagName("span"); //document인 경우 전체 도큐먼트에서 검색해 반환
+el.getElementsByTagName("button"); //element인 경우 서브트리
+
+
+//namespace란 "http://naver.com" 같은 것??
+
+const el = document.getElementsByTagNameNS(namespace, "div") //???? namespace를 주지 않으면 디폴트 값이 설정됨
+
+
+
+```

@@ -20,6 +20,9 @@
   * [getMethod](development/document-object-model/getmethod.md)
   * [HTMLCollection](development/document-object-model/htmlcollection.md)
   * [NodeList](development/document-object-model/nodelist.md)
+  * [childNodes, children](development/document-object-model/childnodes-children.md)
+  * [Event](development/document-object-model/event.md)
+  * [live, static](development/document-object-model/live-static.md)
 
 ## ✨ 자바스크립트 Javascript <a href="#js-playground" id="js-playground"></a>
 
