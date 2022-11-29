@@ -28,6 +28,7 @@
   * [속성 attribute](development/document-object-model/attribute.md)
   * [implementation](development/document-object-model/implementation.md)
   * [노드 Node](development/document-object-model/node.md)
+  * [HTMLElement](development/document-object-model/htmlelement.md)
 
 ## ✨ 자바스크립트 Javascript <a href="#js-playground" id="js-playground"></a>
 
