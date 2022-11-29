@@ -13,3 +13,9 @@ document.URL // http://localhost:3000
 
 document.doctype // html
 ```
+
+```javascript
+el.createTextNode("텍스트"); //텍스트 노드 설정
+
+el.normalize(); //????
+```

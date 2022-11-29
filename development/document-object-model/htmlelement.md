@@ -9,9 +9,21 @@ console.log(el.outerText); //텍스트 반환은 innerText랑 동일하지만 �
 ```
 
 ```javascript
-innerHTML mixin HTML parsing함
+innerHTML mixin HTML parsing
 outerHTML partial
 
 console.log(el.innerHTML); // < > & 이런 기호들 다 인코딩 되어서 노출 
 //<p id="id">&lt;실내&gt;</p>
+
+console.log(el.outerHTML); //
+```
+
+```javascript
+el.insertAdjacentHTML("position", text); //#basis 기준 파싱해서 삽입
+
+afterbegin //기준 엘리먼트 바로 다음
+beforeend //마지막 child 엘리먼트에
+beforebegin //바로 앞에 형제 엘리먼트
+afterend //basis 서브트리가 끝나고 난 후 다음 sibiling 엘리먼트
+
 ```
