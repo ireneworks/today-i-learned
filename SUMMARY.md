@@ -57,3 +57,7 @@
 * [Index](interview/index.md)
 * [브라우저 랜더링 Browser Rendering Process](interview/browser-rendering-process.md)
 * [교차 출처 리소스 공유 CORS](interview/cors.md)
+
+## 넥스트 Nextjs
+
+* [Pages](nextjs/pages.md)
