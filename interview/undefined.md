@@ -92,4 +92,4 @@ DOM 생성 후 속성을 의미하는 `property` , DOM을 조작해 `property`�
 
 
 
-## Cookie, Session, Local Storage
+## Cookie, Web Storage
