@@ -27,6 +27,10 @@
 
 
 
-## CORS
+## CORS(Cross-origin Resource Sharing)
 
-sdfsdf
+<figure><img src="../.gitbook/assets/mdn-url-all.png" alt=""><figcaption><p>URL <a href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_URL">2)</a></p></figcaption></figure>
+
+교차 출처 리소스 공유는 동일한 URL이 아닌 다른 출처에서 데이터를 주고 받는 것을 허용하는 정책이다.&#x20;
+
+**프로토콜**, **호스트**, **포트**가 모두 같아야 동일한 출처이다.
