@@ -66,8 +66,8 @@
 
 
 
-|           | CSR                          | SSR                           |
-| --------- | ---------------------------- | ----------------------------- |
-| 페이지 구성 방식 | SPA(Single Page Application) | MPA(Mutiple Page Application) |
-| 장점        |                              |                               |
-| 단점        |                              |                               |
+|               | CSR                                                       | SSR                                           |
+| ------------- | --------------------------------------------------------- | --------------------------------------------- |
+| **페이지 구성 방식** | SPA(Single Page Application)                              | MPA(Multiple Page Application)                |
+| **장점**        | <ul><li>초기 로딩 이후 TTV, TTI 갭 없음</li><li>서버 부하 적음</li></ul> | <ul><li>SEO 유리</li><li>초기 로딩 속도 빠름</li></ul>  |
+| **단점**        | <ul><li>초기 로딩 화면이 느림</li><li>빈 HTML로 SEO 불리</li></ul>     | <ul><li>TTV와 TTI 사이 갭</li><li>서버 부하</li></ul> |
