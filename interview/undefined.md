@@ -42,8 +42,10 @@
 ```javascript
 //package.json
 
-"proxy": "http://apiserver.com:5000"
+"proxy": "http://localhost:8888"
 ```
 
 <figure><img src="../.gitbook/assets/제목 없는 다이어그램.jpg" alt=""><figcaption><p>Proxy 동작 원리</p></figcaption></figure>
+
+## CSR(Client Side Rendring) SSR(Server Side Rendering)
 
