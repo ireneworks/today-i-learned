@@ -87,3 +87,9 @@
 태그 내 속성을 의미하는 `attribute`
 
 DOM 생성 후 속성을 의미하는 `property` , DOM을 조작해 `property`를 변경할 수 있다.
+
+
+
+
+
+## Cookie, Session, Local Storage
