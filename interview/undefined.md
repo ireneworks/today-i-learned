@@ -51,6 +51,10 @@
 
 ## CSR(Client Side Rendring) SSR(Server Side Rendering)
 
+랜더링 별 차이는 페이지 로딩 시간, SEO 대응, 서버 자원 사용 [3)](https://velog.io/@vagabondms/%EA%B8%B0%EC%88%A0-%EC%8A%A4%ED%84%B0%EB%94%94-SSR%EA%B3%BC-CSR%EC%9D%98-%EC%B0%A8%EC%9D%B4)
+
+****
+
 **CSR 동작**
 
 1. 서버에서 HTML/CSS 리소스 다운 후 빈 HTML 노출
@@ -66,8 +70,9 @@
 
 
 
-|               | CSR                                                       | SSR                                           |
+| 항목            | CSR                                                       | SSR                                           |
 | ------------- | --------------------------------------------------------- | --------------------------------------------- |
 | **페이지 구성 방식** | SPA(Single Page Application)                              | MPA(Multiple Page Application)                |
 | **장점**        | <ul><li>초기 로딩 이후 TTV, TTI 갭 없음</li><li>서버 부하 적음</li></ul> | <ul><li>SEO 유리</li><li>초기 로딩 속도 빠름</li></ul>  |
 | **단점**        | <ul><li>초기 로딩 화면이 느림</li><li>빈 HTML로 SEO 불리</li></ul>     | <ul><li>TTV와 TTI 사이 갭</li><li>서버 부하</li></ul> |
+| **애플리케이션**    | 인터렉션이 많은 애플리케이션                                           | 커머스, 신문 등                                     |
