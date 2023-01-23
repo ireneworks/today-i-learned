@@ -73,3 +73,15 @@
 | **SEO 대응**    | 빈 HTML로 SEO 불리               | 완성된 HTML로 SEO 유리               |
 | **서버 자원 사용**  | 서버 부하 적음                     | 서버 부하                          |
 | **애플리케이션**    | 인터렉션이 많은 애플리케이션              | 커머스, 신문 등                      |
+
+
+
+## attribute, property
+
+```html
+<input value="name" />
+```
+
+태그 내 속성을 의미하는 `attribute`
+
+DOM 생성 후 속성을 의미하는 `property` , DOM을 조작해 `property`를 변경할 수 있다.
