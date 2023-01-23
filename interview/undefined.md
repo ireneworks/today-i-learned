@@ -47,5 +47,27 @@
 
 <figure><img src="../.gitbook/assets/제목 없는 다이어그램.jpg" alt=""><figcaption><p>Proxy 동작 원리</p></figcaption></figure>
 
+##
+
 ## CSR(Client Side Rendring) SSR(Server Side Rendering)
 
+**CSR 동작**
+
+1. 서버에서 HTML/CSS 리소스 다운 후 빈 HTML 노출
+2. JS 다운로드
+3. 동적으로 DOM 생성
+4. 유저 인터렉션 가능
+
+**SSR**
+
+1. 서버에서 만들어진 HTML 파일을 다운로드 후 완성된 화면 노출
+2. JS 다운로드
+3. 유저 인터렉션 가능
+
+
+
+|           | CSR                          | SSR                           |
+| --------- | ---------------------------- | ----------------------------- |
+| 페이지 구성 방식 | SPA(Single Page Application) | MPA(Mutiple Page Application) |
+| 장점        |                              |                               |
+| 단점        |                              |                               |
