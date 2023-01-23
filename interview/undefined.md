@@ -34,3 +34,16 @@
 교차 출처 리소스 공유는 동일한 URL이 아닌 다른 출처에서 데이터를 주고 받는 것을 허용하는 정책이다.&#x20;
 
 **프로토콜**, **호스트**, **포트**가 모두 같아야 동일한 출처이다.
+
+
+
+실제로 리엑트 프로젝트를 하면서 CORS 이슈를 겪었는데, 이를 해결하기 위해 `package.json` 에서 `proxy` 설정으로 해결했다.
+
+```javascript
+//package.json
+
+"proxy": "http://apiserver.com:5000"
+```
+
+<figure><img src="../.gitbook/assets/제목 없는 다이어그램.jpg" alt=""><figcaption><p>Proxy 동작 원리</p></figcaption></figure>
+
