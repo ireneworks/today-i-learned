@@ -78,6 +78,30 @@
 
 
 
+## REST API
+
+REST(Representational State Transfer)는 서버와 통신할 때의 만든 하나의 인터페이스이다. 일관적인 인터페이스를 유지할 수 있다. 자원 기반으로 설계되기 때문에 말하려는 바를 메시지를 통해 쉽게 알 수 있다.&#x20;
+
+
+
+* 자원 Resource -> HTTP URI(Uniform Resource Identifier)
+* 행위 Verb -> HTTP Method(POST, GET, PUT, DELETE)을 통해 자원의 CRUD 기능을 수행할 수 있다.
+* 표현 Representations -> HTTP Message Pay Load
+
+```
+GET api/team
+GET api/team/:id
+POST api/team
+PUT api/team
+DELETE api/team
+```
+
+소문자로만, 하이픈(-)으로, 마지막에는 슬래시(/) 없이 그리고 행위를 포함하지 않는 방식 등으로 설계되어야 한다.&#x20;
+
+실제로 프로젝트를 진행하면서 자원을 나타내기 위해 단어 하나에도 많은 토론을 했었다. 사용자가 문의 내용을 보내는 API를 만들기 위해 URI를 question/inquriy/qna 등 여러가지를 고민했고 이중에서 한국인이 쉽게 이해할 수 있고 명확하게 의미를 내포할 수 있는 단어인 `api/inquiry`를 선택했다.
+
+
+
 ## Cookie, Web Storage, Browser Cache
 
 두 저장소 `key: value` 형태의 문자열 string 값으로 저장한다.
