@@ -116,5 +116,16 @@ DOM 생성 후 속성을 의미하는 `property` , DOM을 조작해 `property`�
 
 
 
-## inline, inline-block
+## inline, inline-block, block, Box Model
 
+<figure><img src="../.gitbook/assets/스크린샷 2023-01-25 오후 7.50.43.png" alt=""><figcaption><p>Box Model</p></figcaption></figure>
+
+`inline`은 실제 컨텐트의 크기 만을 의미한다.&#x20;
+
+`inline-block`은 `margin`과 `padding` 속성에서 상하에만 적용된다. `width`, `height`는 적용되지 않는다. 그렇기 때문에 옆에 컨텐트가 붙을 수 있다.
+
+`block`은 한 줄을 다 차지한다. `width`, `height`, `margin`, `padding` 모든 것이 적용된다.
+
+
+
+컨텐트의 영역은 `content+padding`으로 `background`, `img` 등의 요소들이 해당 영역까지 반영된다.
