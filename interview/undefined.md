@@ -15,7 +15,7 @@
 
 **최적화 방법** [**1)**](https://beomy.github.io/tech/browser/reflow-repaint/)****
 
-* 불필요한 태그 사용은 지양하고 최소한의 태그 사용으로 작게 만들기
+* 불필요한 태그 사용은 지양하고 최소한의 태그 사용으로 작게 만든다.
 * 애니메이션의 경우 초당 프레임이 지속적인 reflow를 발생시키기 때문에 퀄리티와 퍼포먼스에서 타협점을 찾는다.
 * 변경이 필요한 경우, 가장 하위 노드에 적용하면 reflow 영향을 최소화 할 수 있다.
 
@@ -78,21 +78,7 @@
 
 
 
-## attribute, property
-
-```html
-<input value="name" />
-```
-
-태그 내 속성을 의미하는 `attribute`
-
-DOM 생성 후 속성을 의미하는 `property` , DOM을 조작해 `property`를 변경할 수 있다.
-
-
-
-
-
-## Cookie, Web Storage, Cache
+## Cookie, Web Storage, Browser Cache
 
 두 저장소 `key:value` 형태의 문자열 string 값으로 저장한다.
 
@@ -110,6 +96,19 @@ Web Storage는 Local, Session으로 나뉘어져 있다. 5MB 정도로 쿠키에
 
 
 
-**Cache**
+**Browser Cache**
 
-Cache는&#x20;
+Browser Cache는 브라우저에서 웹 리소스의 사본을 저장하는 방식으로 이미지, HTML, CSS, JS 등의 에셋이 있다. 서버와 클라이언트가 통신을 하다보면 지연될 수 있고 이 간극을 줄이기 위해 브라우저 캐시가 있다.&#x20;
+
+
+
+## attribute, property
+
+```html
+<input value="name" />
+```
+
+태그 내 속성을 의미하는 `attribute`
+
+DOM 생성 후 속성을 의미하는 `property` , DOM을 조작해 `property`를 변경할 수 있다.
+
