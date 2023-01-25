@@ -37,7 +37,7 @@
 
 
 
-실제로 리엑트 프로젝트를 하면서 CORS 이슈를 겪었는데, 이를 해결하기 위해 `package.json` 에서 `proxy` 설정으로 해결했다.
+실제로 리액트 프로젝트를 하면서 CORS 이슈를 겪었는데, 이를 해결하기 위해 `package.json` 에서 `proxy` 설정으로 해결했다.
 
 ```javascript
 //package.json
@@ -122,7 +122,7 @@ Cookie는 4KB로 작은 데이터를 저장할 수 있고, 서버와 통신한�
 
 Web Storage는 Local, Session으로 나뉘어져 있다. 5MB 정도로 쿠키에 비해서 큰 데이터를 저장 할 수 있고, 서버로 전송되지 않는다. 굳이 서버로 전송할 필요가 없는 데이터라면 보안과 속도를 위해 이용하며, 웹 성능에 영향을 주지 않고 큰 데이터를 저장할 수 있다. **Local Storage**는 유효기간이 없지만, **Session Storage**는 창을 닫으면 초기화된다.   [4)](https://geonlee.tistory.com/127)
 
-실제로 완두콩 프로젝트에서도 Local Storage를 사용했었고, 일회성 모달과 로그인 여부를 확인하기 위해 저장했다.
+실제로 프로젝트에서도 Local Storage를 사용했었고, 일회성 모달과 로그인 여부를 확인하기 위해 저장했다.
 
 
 
@@ -161,3 +161,5 @@ DOM 생성 후 속성을 의미하는 `property` , DOM을 조작해 `property`�
 
 
 ## Javascript
+
+자바스크립트는 **논블로킹**, **싱글스레드** 언어이다.
