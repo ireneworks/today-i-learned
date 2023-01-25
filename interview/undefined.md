@@ -100,6 +100,12 @@ DELETE api/team
 
 
 
+**\*URI vs URL**
+
+<figure><img src="../.gitbook/assets/url-structure-and-scheme-2022.png" alt=""><figcaption><p>URI vs URL <a href="https://danielmiessler.com/study/difference-between-uri-url/">3)</a> </p></figcaption></figure>
+
+
+
 ## 브라우저 저장소
 
 두 저장소 `key: value` 형태의 문자열 string 값으로 저장한다.
@@ -114,7 +120,7 @@ Cookie는 4KB로 작은 데이터를 저장할 수 있고, 서버와 통신한�
 
 **Web Storage**
 
-Web Storage는 Local, Session으로 나뉘어져 있다. 5MB 정도로 쿠키에 비해서 큰 데이터를 저장 할 수 있고, 서버로 전송되지 않는다. 굳이 서버로 전송할 필요가 없는 데이터라면 보안과 속도를 위해 이용하며, 웹 성능에 영향을 주지 않고 큰 데이터를 저장할 수 있다. **Local Storage**는 유효기간이 없지만, **Session Storage**는 창을 닫으면 초기화된다.   [3)](https://geonlee.tistory.com/127)
+Web Storage는 Local, Session으로 나뉘어져 있다. 5MB 정도로 쿠키에 비해서 큰 데이터를 저장 할 수 있고, 서버로 전송되지 않는다. 굳이 서버로 전송할 필요가 없는 데이터라면 보안과 속도를 위해 이용하며, 웹 성능에 영향을 주지 않고 큰 데이터를 저장할 수 있다. **Local Storage**는 유효기간이 없지만, **Session Storage**는 창을 닫으면 초기화된다.   [4)](https://geonlee.tistory.com/127)
 
 실제로 완두콩 프로젝트에서도 Local Storage를 사용했었고, 일회성 모달과 로그인 여부를 확인하기 위해 저장했다.
 
