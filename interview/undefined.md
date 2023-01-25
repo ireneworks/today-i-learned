@@ -80,9 +80,7 @@
 
 ## REST API
 
-REST(Representational State Transfer)는 서버와 통신할 때의 만든 하나의 인터페이스이다. 일관적인 인터페이스를 유지할 수 있다. 자원 기반으로 설계되기 때문에 말하려는 바를 메시지를 통해 쉽게 알 수 있다.&#x20;
-
-
+REST(Representational State Transfer)는 서버와 통신할 때의 만든 하나의 인터페이스이다. 일관적인 인터페이스를 유지할 수 있다. 자원 기반으로 설계되기 때문에 말하려는 바를 메시지를 통해 쉽게 알 수 있다. 다만 HTTP Method가 한정적인 단점도 있다.
 
 * 자원 Resource -> HTTP URI(Uniform Resource Identifier)
 * 행위 Verb -> HTTP Method(POST, GET, PUT, DELETE)을 통해 자원의 CRUD 기능을 수행할 수 있다.
