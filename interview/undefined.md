@@ -100,7 +100,7 @@ DELETE api/team
 
 
 
-## Cookie, Web Storage, Browser Cache
+## 브라우저 저장소
 
 두 저장소 `key: value` 형태의 문자열 string 값으로 저장한다.
 
@@ -151,3 +151,7 @@ DOM 생성 후 속성을 의미하는 `property` , DOM을 조작해 `property`�
 
 
 컨텐트의 영역은 `content+padding`으로 `background`, `img` 등의 요소들이 해당 영역까지 반영된다.
+
+
+
+## Javascript
