@@ -140,7 +140,7 @@ Browser Cache는 브라우저에서 웹 리소스의 사본을 저장하는 방�
 
 태그 내 속성을 의미하는 `attribute`
 
-DOM 생성 후 속성을 의미하는 `property` , DOM을 조작해 `property`를 변경할 수 있다.
+DOM은 객체로 이루어져있기 때문에 생성 후 그 안에 속성은 `property` , DOM을 조작해 `property`를 변경할 수 있다.&#x20;
 
 
 
