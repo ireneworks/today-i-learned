@@ -160,8 +160,12 @@ DOM은 객체로 이루어져있기 때문에 생성 후 그 안에 속성은 `p
 
 
 
-## Javascript
+## Javascript, Sync vs Async
 
-자바스크립트는 **논 블로킹**, **싱글 스레드** 언어이다.
+자바스크립트는 **논 블로킹**, **싱글 스레드** 언어이다. 또한, 선언이 아닌 변수에 할당되면서 데이터의 타입이 결정되기 때문에 동적 타입이고, 스크립트언어로 한 줄씩 읽어가며 오른쪽에서 왼쪽으로, 위에서 밑으로 진행된다.
 
-싱글 스레드이지만 하나의 작업이 완료되기를 기다리지 않고 다음 작업을 수행할 수 있다. 이는 **비동기처리**가 가능해서 논 블로킹이라 부른다.
+싱글 스레드이지만 하나의 작업이 완료되기를 기다리지 않고 다음 작업을 수행할 수 있다. 이렇게 **비동기처리**가 가능하기 때문에 논 블로킹이라 부른다.
+
+
+
+<figure><img src="../.gitbook/assets/1603915143811.png" alt=""><figcaption><p>Sync vs Async <a href="https://www.linkedin.com/pulse/sync-async-connectivity-explained-zolt%C3%A1n-simon?trk=read_related_article-card_title">4)</a></p></figcaption></figure>
