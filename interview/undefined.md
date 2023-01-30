@@ -96,13 +96,13 @@ DELETE api/team
 
 소문자로만, 하이픈(-)으로, 마지막에는 슬래시(/) 없이 그리고 행위를 포함하지 않는 방식 등으로 설계되어야 한다.&#x20;
 
-실제로 프로젝트를 진행하면서 자원을 나타내기 위해 단어 하나에도 많은 토론을 했었다. 사용자가 문의 내용을 보내는 API를 만들기 위해 URI를 question/inquriy/qna 등 여러가지를 고민했고 이중에서 한국인이 쉽게 이해할 수 있고 명확하게 의미를 내포할 수 있는 단어인 `api/inquiry`를 선택했다.
-
 
 
 **\*URI vs URL**
 
 <figure><img src="../.gitbook/assets/url-structure-and-scheme-2022.png" alt=""><figcaption><p>URI vs URL <a href="https://danielmiessler.com/study/difference-between-uri-url/">3)</a> </p></figcaption></figure>
+
+
 
 
 
