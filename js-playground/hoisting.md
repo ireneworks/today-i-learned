@@ -26,8 +26,8 @@ num = 6; //할당
 
 ### let, const
 
-1. &#x20;선언 단계
-2. TDZ(Temporarily Danger Zone):&#x20;
+1. TDZ(Temporarily Danger Zone)
+2. 선언 단계
 3. 초기화 및 할당 단계:&#x20;
 
 | 스코프  | 재할당       |
