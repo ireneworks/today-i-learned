@@ -19,8 +19,9 @@ Nan
 
 
 ```javascript
-state === ("pending" || "accepted") 
 //"pending"은 이미 truthy이기 때문에 state === "pending"이 되어서 true
+state === ("pending" || "accepted") 
 
+//다음과 같이 구분해서 평가해야 한다.
 state === "pending" || state === "accepted"
 ```
