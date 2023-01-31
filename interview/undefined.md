@@ -104,8 +104,6 @@ DELETE api/team
 
 
 
-
-
 ## 브라우저 저장소
 
 두 저장소 `key: value` 형태의 문자열 string 값으로 저장한다.
@@ -120,7 +118,7 @@ Cookie는 4KB로 작은 데이터를 저장할 수 있고, 서버와 통신한�
 
 **Web Storage**
 
-Web Storage는 Local, Session으로 나뉘어져 있다. 5MB 정도로 쿠키에 비해서 큰 데이터를 저장 할 수 있고, 서버로 전송되지 않는다. 굳이 서버로 전송할 필요가 없는 데이터라면 보안과 속도를 위해 이용하며, 웹 성능에 영향을 주지 않고 큰 데이터를 저장할 수 있다. **Local Storage**는 유효기간이 없지만, **Session Storage**는 창을 닫으면 초기화된다.   [4)](https://geonlee.tistory.com/127)
+Web Storage는 Local, Session으로 나뉘어져 있다. 5MB 정도로 쿠키에 비해서 큰 데이터를 저장 할 수 있고, 서버로 전송되지 않는다. 굳이 서버로 전송할 필요가 없는 데이터라면 보안과 속도를 위해 이용하며, 웹 성능에 영향을 주지 않고 큰 데이터를 저장할 수 있다. **Local Storage**는 유효기간이 없지만, **Session Storage**는 창을 닫으면 초기화된다.[4)](https://geonlee.tistory.com/127)
 
 실제로 프로젝트에서도 Local Storage를 사용했었고, 일회성 모달과 로그인 여부를 확인하기 위해 저장했다.
 
@@ -129,6 +127,52 @@ Web Storage는 Local, Session으로 나뉘어져 있다. 5MB 정도로 쿠키에
 **Browser Cache**
 
 Browser Cache는 브라우저에서 웹 리소스의 사본을 저장하는 방식으로 이미지, HTML, CSS, JS 등의 에셋이 있다. 서버와 클라이언트가 통신을 하다보면 지연될 수 있고 이 간극을 줄이기 위해 브라우저 캐시가 있다.&#x20;
+
+
+
+## Javascript, Sync vs Async
+
+자바스크립트는 **논 블로킹**, **싱글 스레드** 언어이다. 또한, 선언이 아닌 변수에 할당되면서 데이터의 타입이 결정되기 때문에 동적 타입이고, 스크립트언어로 한 줄씩 읽어가며 오른쪽에서 왼쪽으로, 위에서 밑으로 진행된다.
+
+싱글 스레드이지만 하나의 작업이 완료되기를 기다리지 않고 다음 작업을 수행할 수 있다. 이렇게 **비동기처리**가 가능하기 때문에 논 블로킹이라 부른다.&#x20;
+
+자바스크립트의 비동기 처리 방식은 **AJAX**(Asynchronous Javascript And XML)라 한다.
+
+
+
+<figure><img src="../.gitbook/assets/1603915143811.png" alt=""><figcaption><p>Sync vs Async <a href="https://www.linkedin.com/pulse/sync-async-connectivity-explained-zolt%C3%A1n-simon?trk=read_related_article-card_title">5)</a></p></figcaption></figure>
+
+&#x20;
+
+### Promise
+
+<figure><img src="../.gitbook/assets/promises.png" alt=""><figcaption><p>Promise <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Promise">6)</a></p></figcaption></figure>
+
+* Pending(대기): 초기상태
+* Fulfilled(성공): 비동기 처리가 완료되어 프로미스가 결과 값을 반환해준 상태
+* Rejected(실패): 비동기 처리가 실패하거나 오류가 발생한 상태
+
+Promise는 3가지 상태를 가진다.&#x20;
+
+
+
+## Position
+
+```css
+/* 어느 위치에 배치될 지 정할 수 있는 속성 */
+
+position: static;
+position: relative;
+position: absolute;
+position: fixed;
+position: sticky;
+```
+
+
+
+## SCSS
+
+css를 조금 더 효율적으로 편리하게 작성할 수 있도록 variable, nesting, mixin 등의 개념을 추가해서 나온 스크립트 언어이다. 다만 SaSS와 SCSS는 `{ }` 감싸는 구문의 여부로 다르다.
 
 
 
@@ -144,7 +188,7 @@ DOM은 객체로 이루어져있기 때문에 생성 후 그 안에 속성은 `p
 
 
 
-## inline, inline-block, block, Box Model
+## Display, Box Model
 
 <figure><img src="../.gitbook/assets/스크린샷 2023-01-25 오후 7.50.43.png" alt=""><figcaption><p>Box Model</p></figcaption></figure>
 
@@ -160,12 +204,8 @@ DOM은 객체로 이루어져있기 때문에 생성 후 그 안에 속성은 `p
 
 
 
-## Javascript, Sync vs Async
+## Semantic Markup
 
-자바스크립트는 **논 블로킹**, **싱글 스레드** 언어이다. 또한, 선언이 아닌 변수에 할당되면서 데이터의 타입이 결정되기 때문에 동적 타입이고, 스크립트언어로 한 줄씩 읽어가며 오른쪽에서 왼쪽으로, 위에서 밑으로 진행된다.
-
-싱글 스레드이지만 하나의 작업이 완료되기를 기다리지 않고 다음 작업을 수행할 수 있다. 이렇게 **비동기처리**가 가능하기 때문에 논 블로킹이라 부른다.
-
-
-
-<figure><img src="../.gitbook/assets/1603915143811.png" alt=""><figcaption><p>Sync vs Async <a href="https://www.linkedin.com/pulse/sync-async-connectivity-explained-zolt%C3%A1n-simon?trk=read_related_article-card_title">4)</a></p></figcaption></figure>
+* 웹 접근성: **모든 사용자가 제외되지 않고** 웹을 이용할 수 있도록 접근성을 준수해야 한다.
+* SEO 최적화: 문서 내 태그와 내용을 통해 분석해 어떤 내용이 포함되어 있는데 효과적으로 분석할 수 있을 것이다.
+* 개발: 협업 시의가독성, 스타일을 부여할 때 최대한 다양한 태그를 활용해 쉽게 스타일을 부여할 수 있다.
