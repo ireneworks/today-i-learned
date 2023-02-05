@@ -30,6 +30,10 @@
   * [노드 Node](development/document-object-model/node.md)
   * [HTMLElement](development/document-object-model/htmlelement.md)
 
+## 🍎 CS 50
+
+* [Computational Thinking](cs-50/computational-thinking.md)
+
 ## ✨ 자바스크립트 Javascript <a href="#js-playground" id="js-playground"></a>
 
 * [변수 Variable](js-playground/variable.md)
