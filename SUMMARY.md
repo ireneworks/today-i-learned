@@ -30,7 +30,7 @@
   * [노드 Node](development/document-object-model/node.md)
   * [HTMLElement](development/document-object-model/htmlelement.md)
 
-## 🍎 CS 50
+## 💡 CS 50
 
 * [Computational Thinking](cs-50/computational-thinking.md)
 
