@@ -1,4 +1,4 @@
-# 브라우저 저장소 Web Storage
+# 브라우저 저장소 Cookie Web Storage
 
 두 저장소 `key: value` 형태의 문자열 string 값으로 저장한다.
 

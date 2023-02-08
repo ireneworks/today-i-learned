@@ -14,21 +14,6 @@
 * [깃 Git](development/git.md)
 * [해시 Hash](development/hash.md)
 * [노드 패키지 매니저 Node Package Manager](development/npm.md)
-* [문서객체모델 Document Object Model](development/document-object-model.md)
-  * [개요 Overview](development/document-object-model/overview.md)
-  * [도큐먼트 Document](development/document-object-model/document.md)
-  * [HTMLCollection](development/document-object-model/htmlcollection.md)
-  * [getMethod](development/document-object-model/getmethod.md)
-  * [NodeList](development/document-object-model/nodelist.md)
-  * [childNodes, children](development/document-object-model/childnodes-children.md)
-  * [Event](development/document-object-model/event.md)
-  * [live, static](development/document-object-model/live-static.md)
-  * [Element](development/document-object-model/element.md)
-  * [DOM Token](development/document-object-model/dom-token.md)
-  * [속성 attribute](development/document-object-model/attribute.md)
-  * [implementation](development/document-object-model/implementation.md)
-  * [노드 Node](development/document-object-model/node.md)
-  * [HTMLElement](development/document-object-model/htmlelement.md)
 
 ## 💡 CS 50
 
@@ -36,6 +21,21 @@
 
 ## ✨ 자바스크립트 Javascript <a href="#js-playground" id="js-playground"></a>
 
+* [문서객체모델 Document Object Model](js-playground/document-object-model/README.md)
+  * [개요 Overview](js-playground/document-object-model/overview.md)
+  * [도큐먼트 Document](js-playground/document-object-model/document.md)
+  * [HTMLCollection](js-playground/document-object-model/htmlcollection.md)
+  * [getMethod](js-playground/document-object-model/getmethod.md)
+  * [NodeList](js-playground/document-object-model/nodelist.md)
+  * [childNodes, children](js-playground/document-object-model/childnodes-children.md)
+  * [Event](js-playground/document-object-model/event.md)
+  * [live, static](js-playground/document-object-model/live-static.md)
+  * [Element](js-playground/document-object-model/element.md)
+  * [DOM Token](js-playground/document-object-model/dom-token.md)
+  * [속성 attribute](js-playground/document-object-model/attribute.md)
+  * [implementation](js-playground/document-object-model/implementation.md)
+  * [노드 Node](js-playground/document-object-model/node.md)
+  * [HTMLElement](js-playground/document-object-model/htmlelement.md)
 * [변수 Variable](js-playground/variable.md)
 * [호이스팅 Hoisting](js-playground/hoisting.md)
 * [표현식과 문 Expression Statement](js-playground/expression-statement.md)
@@ -44,7 +44,7 @@
 * [배열 Array](js-playground/array.md)
 * [Import Export](js-playground/import-and-export.md)
 * [스택과 큐 Stack Queue](js-playground/stack-queue.md)
-* [브라우저 저장소 Web Storage](js-playground/web-storage.md)
+* [브라우저 저장소 Cookie Web Storage](js-playground/cookie-web-storage.md)
 
 ## 🎁 리액트 React
 
