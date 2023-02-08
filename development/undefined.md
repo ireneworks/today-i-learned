@@ -1,7 +1,3 @@
----
-description: 마인드 장착
----
-
 # 개발 Implementation
 
 * 해결해야할 문제(Acceptance criteria)를 정의하고 문제 해결 방안을 도출한다.

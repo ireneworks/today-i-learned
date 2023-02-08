@@ -44,8 +44,7 @@
 * [배열 Array](js-playground/array.md)
 * [Import Export](js-playground/import-and-export.md)
 * [스택과 큐 Stack Queue](js-playground/stack-queue.md)
-* [쿠키 Cookie](js-playground/cookie.md)
-* [로컬스토리지 Local Storage](js-playground/local-storage.md)
+* [브라우저 저장소 Web Storage](js-playground/web-storage.md)
 
 ## 🎁 리액트 React
 
