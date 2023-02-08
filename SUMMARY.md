@@ -38,12 +38,12 @@
 
 * [변수 Variable](js-playground/variable.md)
 * [호이스팅 Hoisting](js-playground/hoisting.md)
-* [표현식과 문 Expression & Statement](js-playground/expression-and-statement.md)
+* [표현식과 문 Expression Statement](js-playground/expression-statement.md)
 * [함수 Function](js-playground/function.md)
-* [참과 거짓 값 Truth & Falsy](js-playground/truth-and-falsy.md)
+* [참과 거짓 값 Truth Falsy](js-playground/truth-falsy.md)
 * [배열 Array](js-playground/array.md)
-* [import & export](js-playground/import-and-export.md)
-* [스택과 큐 Stack & Queue](js-playground/stack-and-queue.md)
+* [Import Export](js-playground/import-and-export.md)
+* [스택과 큐 Stack Queue](js-playground/stack-queue.md)
 * [쿠키 Cookie](js-playground/cookie.md)
 * [로컬스토리지 Local Storage](js-playground/local-storage.md)
 
@@ -56,13 +56,18 @@
 
 * [Page 1](typescript/page-1.md)
 
+## 🗃 리덕스 Redux
+
+* [Why Redux](redux/why-redux.md)
+* [플럭스 Flux](redux/flux.md)
+
+## 넥스트 Nextjs
+
+* [Pages](nextjs/pages.md)
+
 ## ✅ 면접 Interview
 
 * [목록](interview/undefined.md)
 * [Index](interview/index.md)
 * [브라우저 랜더링 Browser Rendering Process](interview/browser-rendering-process.md)
 * [교차 출처 리소스 공유 CORS](interview/cors.md)
-
-## 넥스트 Nextjs
-
-* [Pages](nextjs/pages.md)
