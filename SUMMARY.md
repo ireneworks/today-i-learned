@@ -58,7 +58,7 @@
 
 ## 🗃 리덕스 Redux
 
-* [Why Redux](redux/why-redux.md)
+* [왜 리덕스를 사용할까 Why Redux](redux/why-redux.md)
 * [플럭스 Flux](redux/flux.md)
 
 ## 넥스트 Nextjs
