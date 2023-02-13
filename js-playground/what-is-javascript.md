@@ -6,7 +6,7 @@
 
 ## 자바스크립트는 컴파일러가 필요한가?
 
-> 예전에 비해 복잡하고 더 많은 인터렉션을 필요로 하는 애플리케이션이 증가함에 따라 상황에 따라 자바스크립트는 컴파일러가 필요하다.
+> 예전에 비해 복잡하고 더 많은 인터렉션을 필요로 하는 애플리케이션이 증가함에 따라 상황에 따라 자바스크립트는 컴파일러가 작동한다.
 
 컴파일러를 거치는 경우 Compiled language라 부르며, 자바스크립트는 Interpreted language 또는 JIT(Just-in-time) compiled language라고 한다. [2)](https://developer.mozilla.org/ko/docs/Web/JavaScript) 자바스크립트는 필요에 따라서 엔진에서 컴파일 과정을 거친다.
 
