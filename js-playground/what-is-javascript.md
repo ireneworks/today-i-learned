@@ -12,9 +12,7 @@
 
 구글맵스를 구동시킬 수 있는 V8 엔진을 만들면서 자바스크립트는 컴파일 과정도 거치게 된다. 컴파일 과정을 거치게 되면 코드를 최적화하고 빠르게 구동시킬 수 있는 특징이 있다. 자바스크립트는 인터프리터를 통해 한줄 한줄 읽어나가면 바로 실행할 수 있기 때문에 **기존 인터프리터의 특징을 유지하면서 컴파일 과정을 추가**해 고성능 자바스크립트 실행기가 되었다.
 
-
-
-
+<figure><img src="../.gitbook/assets/img1.daumcdn.png" alt=""><figcaption><p>Javascript Compilation <a href="https://devlog-of-yein.tistory.com/6">3)</a></p></figcaption></figure>
 
 
 
