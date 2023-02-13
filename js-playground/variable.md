@@ -1,6 +1,6 @@
 # 변수 Variable
 
-식별자 Identifier
+## 식별자 Identifier
 
 <figure><img src="../.gitbook/assets/IMG_0363.PNG" alt=""><figcaption><p>식별자 Identifier​</p></figcaption></figure>
 
@@ -9,7 +9,7 @@
 
 ###
 
-### 원시타입 Primitive Type
+## 원시타입 Primitive Type
 
 ```javascript
 var x = 5 
@@ -23,7 +23,7 @@ var x = 5
 
 ###
 
-### 객체/참조타입 Object/Reference Type
+## 객체/참조타입 Object/Reference Type
 
 ```javascript
 const arr = [1, 2, 3]; 
@@ -34,7 +34,7 @@ const arr = [1, 2, 3];
 
 ###
 
-### 스코프 Scope
+## 스코프 Scope
 
 ```javascript
 var a = 100;
