@@ -2,7 +2,7 @@
 
 ## 식별자 Identifier
 
-<figure><img src="../.gitbook/assets/IMG_0363.PNG" alt=""><figcaption><p>식별자 Identifier​</p></figcaption></figure>
+![](<../.gitbook/assets/IMG\_0363 (1).PNG>)
 
 * `value` 는 메모리 주소에 값이 담겨있는 위치를 식별하기 위해 붙힌 이름
 * `value` 식별자는 메모리 주소를 기억

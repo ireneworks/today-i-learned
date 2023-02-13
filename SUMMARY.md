@@ -14,8 +14,8 @@
 * [깃 Git](development/git.md)
 * [해시 Hash](development/hash.md)
 * [노드 패키지 매니저 Node Package Manager](development/npm.md)
-* [브라우저 랜더링 Browser Rendering Process](development/browser-rendering-process.md)
-* [교차 출처 리소스 공유 CORS](development/cors.md)
+* [브라우저 랜더링 Browser Rendering Process](interview/browser-rendering-process.md)
+* [교차 출처 리소스 공유 CORS](interview/cors.md)
 
 ## 💡 CS 50
 
