@@ -21,7 +21,12 @@
 * Symbol
 * BigInt
 
-<figure><img src="../.gitbook/assets/IMG_0336.PNG" alt=""><figcaption><p>Immutable value</p></figcaption></figure>
+```javascript
+var x = 5;
+x = 2;
+```
+
+![](../.gitbook/assets/IMG\_0365.PNG)
 
 원시 값은 변경 불가능(Immutable value)하다. 새로운 값을 새로운 메모리에 저장하여 해당 메모리 주소로 변경해서 값을 가져오기 때문에 원천 데이터가 변경되는 것이 아니다.
 
