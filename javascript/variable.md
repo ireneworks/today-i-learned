@@ -53,6 +53,8 @@ console.log(foo); //undefined
 let foo;
 ```
 
+`let`은 작성된 코드에 따라 초기화와 할당이 분리될  수 있다. 선언만 한 경우 초기화가 같이 진행되어 `undefined` 값을 가진다. 그러나 할당까지 작성한 경우라면 호이스팅을 통해 선언은 일어나지만, 초기화와 할당이 동시에 일어나 값이 메모리에 할당되지 않아 에러가 발생한다. 해당 에러는 `const`의 TDZ 에러와 동일하다.
+
 ### const
 
 ```javascript
@@ -70,8 +72,8 @@ foo = 20; //TypeError: Assignment to constant variable.
 ```
 
 ```javascript
-console.log(foo);
-const foo; //SyntaxError: Missing initializer in const declaration
+console.log(foo); //SyntaxError: Missing initializer in const declaration
+const foo; 
 ```
 
 `const`는 선언과 동시에 값을 할당해야 한다. 호이스팅을 통해 선언은 일어나지만 초기화+할당이 진행되지 않았기 때문에 값이 메모리에 할당되지 않아 에러가 발생한다. 해당 에러는 TDZ 스코프에 포함되어 있기 때문에 발생하는 에러로 선언만 된 변수는 참조할 수 없기 때문에 에러가 발생한다. 또한 `const`는 재할당이 불가능하다.
