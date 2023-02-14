@@ -24,6 +24,13 @@
 ## ✨ 자바스크립트 Javascript
 
 * [자바스크립트란 What is JavaScript](javascript/what-is-javascript.md)
+* [표현식과 문 Expression Statement](javascript/expression-statement.md)
+* [변수 Variable](javascript/variable.md)
+* [함수 Function](javascript/function.md)
+* [참과 거짓 값 Truth Falsy](javascript/truth-falsy.md)
+* [배열 Array](javascript/array.md)
+* [Import Export](javascript/import-and-export.md)
+* [스택과 큐 Stack Queue](javascript/stack-queue.md)
 * [문서객체모델 Document Object Model](javascript/document-object-model/README.md)
   * [개요 Overview](javascript/document-object-model/overview.md)
   * [도큐먼트 Document](javascript/document-object-model/document.md)
@@ -39,14 +46,6 @@
   * [implementation](javascript/document-object-model/implementation.md)
   * [노드 Node](javascript/document-object-model/node.md)
   * [HTMLElement](javascript/document-object-model/htmlelement.md)
-* [변수 Variable](javascript/variable.md)
-* [호이스팅 Hoisting](javascript/hoisting.md)
-* [표현식과 문 Expression Statement](javascript/expression-statement.md)
-* [함수 Function](javascript/function.md)
-* [참과 거짓 값 Truth Falsy](javascript/truth-falsy.md)
-* [배열 Array](javascript/array.md)
-* [Import Export](javascript/import-and-export.md)
-* [스택과 큐 Stack Queue](javascript/stack-queue.md)
 * [브라우저 저장소 Cookie Web Storage](javascript/cookie-web-storage.md)
 
 ## 🎁 리액트 React

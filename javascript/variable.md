@@ -9,7 +9,7 @@
 * `value` 는 메모리 주소에 값이 담겨있는 위치를 구분하기 위해 붙힌 이름
 * `value` 식별자는 메모리 주소를 기억
 
-## 데이터 타입 Data Type
+## 자료구조/데이터 타입 Data Type
 
 #### 원시타입 Primitive Type (call by value)
 
@@ -21,9 +21,9 @@
 * Symbol
 * BigInt
 
-원시 값은 변경 불가능(Immutable value), 메모리 주소를 변경해서 값을 변경, 원천 데이터는 변경할 수 없음
+원시 값은 변경 불가능(Immutable value)하다. 새로운 값을 새로운 메모리에 저장하여 해당 메모리 주소로 변경해서 값을 가져오기 때문에 원천 데이터가 변경되는 것이 아니다.
 
-#### 객체타입 Object/Reference Type (call by reference)
+#### 객체/참조 타입 Object/Reference Type (call by reference)
 
 * 원시타입을 제외한 나머지
 
