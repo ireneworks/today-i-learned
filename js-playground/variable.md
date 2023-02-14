@@ -1,5 +1,12 @@
 # 변수 Variable
 
+Type\
+⌘/\
+for commands,\
+/\
+for inline commands or paste a link to embed content.\
+ㅂ
+
 ## 식별자 Identifier
 
 ![](<../.gitbook/assets/IMG\_0363 (1).PNG>)
