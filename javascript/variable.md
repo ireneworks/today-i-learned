@@ -25,13 +25,33 @@ foo = 20;
 //Hoisted
 var foo; //declaration
 foo = undefined; //initialization
----------------------------------
 console.log(foo); //undefined
 foo = 10; //assignment
 foo = 20; //re-assignment
 ```
 
 `var`는 선언과 동시에 초기화가 일어난다. 그렇기 때문에 선언 전에 참조해도 호이스팅을 통해 초기화 일어나 `undefined` 값이 있기 때문에 에러가 발생하지 않는다. 또한 `var`는 재할당이 가능하다.
+
+### let
+
+```javascript
+console.log(foo); //ReferenceError: foo is not defined
+let foo = 10;
+foo = 20;
+-------------------------------------------------------
+//Hoisted
+let foo; //declaration
+//TDZ scope start
+console.log(foo); //ReferenceError: foo is not defined
+//TDZ scope end
+foo = 10; //assignment
+foo = 20; //re-assignment
+```
+
+```javascript
+console.log(foo); //undefined
+let foo;
+```
 
 ### const
 
@@ -43,21 +63,18 @@ foo = 20; //TypeError: Assignment to constant variable.
 //Hoisted
 const foo; //declaration
 //TDZ scope start
--------------------------------------------------------
 console.log(foo); //
 //TDZ scope end
 foo = 10; //assignment
 foo = 20; //TypeError: Assignment to constant variable.
 ```
 
-`const`는 호이스팅을 통해 선언은 일어나지만 초기화가 진행되지 않았기 때문에 메모리에 할당되지 않아 에러가 발생한다. 그 이유는 `const`는 초기화와 동시에 값이 할당되기 때문에 초기화+할당 전까지 TDZ 스코프에 해당된다. TDZ 스코프에 있을 때에는 참조할 수 없기 때문에 에러가 발생한다. 또한 `const`는 재할당이 불가능하다.
-
 ```javascript
 console.log(foo);
 const foo; //SyntaxError: Missing initializer in const declaration
 ```
 
-`const`는 선언과 동시에 값을 할당해야 한다.
+`const`는 선언과 동시에 값을 할당해야 한다. 호이스팅을 통해 선언은 일어나지만 초기화+할당이 진행되지 않았기 때문에 값이 메모리에 할당되지 않아 에러가 발생한다. 해당 에러는 TDZ 스코프에 포함되어 있기 때문에 발생하는 에러로 선언만 된 변수는 참조할 수 없기 때문에 에러가 발생한다. 또한 `const`는 재할당이 불가능하다.
 
 ## 데이터 타입
 
