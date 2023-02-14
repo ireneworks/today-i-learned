@@ -23,7 +23,7 @@
 
 ## ✨ 자바스크립트 Javascript <a href="#js-playground" id="js-playground"></a>
 
-* [자바스크립트란 What is Javascript](js-playground/what-is-javascript.md)
+* [자바스크립트란 What is JavaScript](js-playground/what-is-javascript.md)
 * [문서객체모델 Document Object Model](js-playground/document-object-model/README.md)
   * [개요 Overview](js-playground/document-object-model/overview.md)
   * [도큐먼트 Document](js-playground/document-object-model/document.md)
