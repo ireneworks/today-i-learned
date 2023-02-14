@@ -1,9 +1,11 @@
 # 개발 Implementation
 
-<figure><img src="../.gitbook/assets/스크린샷 2023-02-14 오후 1.45.46.png" alt=""><figcaption><p>What is solving a problem? <a href="https://www.youtube.com/watch?v=jjqgP9dpD1k&#x26;list=PLhQjrBD2T381L3iZyDTxRwOBuUt6m1FnW">1)</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/스크린샷 2023-02-14 오후 1.45.46.png" alt=""><figcaption><p>CS 50 2019 Computational Thinking, Scratch <a href="https://www.youtube.com/watch?v=jjqgP9dpD1k&#x26;list=PLhQjrBD2T381L3iZyDTxRwOBuUt6m1FnW">1)</a></p></figcaption></figure>
+
+개발에서 문제 해결이란, 데이터를 받아서 input 처리하고 결과를 출력 output 하는 것을 의미한다. 박스 안에 들어갈 처리 방법을 고민하는 것이 목표이다.
 
 * 해결해야할 문제(Acceptance criteria)를 정의하고 문제 해결 방안을 도출한다.
-* 해결 과제를 작은 단위로 분해하고 패턴화해서 평가 가능하도록 정의해야 한다.
+* 해결 과제를 작은 단위로 분해하고 패턴화해서 평가가 가능하도록 정의해야 한다.
 
 
 
