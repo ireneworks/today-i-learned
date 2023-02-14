@@ -21,6 +21,8 @@
 * Symbol
 * BigInt
 
+<figure><img src="../.gitbook/assets/IMG_0336.PNG" alt=""><figcaption><p>Immutable value</p></figcaption></figure>
+
 원시 값은 변경 불가능(Immutable value)하다. 새로운 값을 새로운 메모리에 저장하여 해당 메모리 주소로 변경해서 값을 가져오기 때문에 원천 데이터가 변경되는 것이 아니다.
 
 #### 객체/참조 타입 Object/Reference Type (call by reference)
@@ -99,12 +101,3 @@ const foo;
 ```
 
 `const`는 선언과 동시에 값을 할당해야 한다. 호이스팅을 통해 선언은 일어나지만 초기화+할당이 진행되지 않았기 때문에 값이 메모리에 할당되지 않아 에러가 발생한다. 해당 에러는 TDZ 스코프에 포함되어 있기 때문에 발생하는 에러로 선언만 된 변수는 참조할 수 없기 때문에 에러가 발생한다. 또한 `const`는 재할당이 불가능하다.
-
-
-
-
-
-<figure><img src="../.gitbook/assets/IMG_0336.PNG" alt=""><figcaption><p>Immutable value</p></figcaption></figure>
-
-
-
