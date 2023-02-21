@@ -70,3 +70,7 @@
 
 * [목록](interview/undefined.md)
 * [Index](interview/index.md)
+
+## 🚀 TECH
+
+* [Zustand](tech/zustand.md)
