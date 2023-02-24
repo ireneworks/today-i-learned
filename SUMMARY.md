@@ -73,4 +73,5 @@
 
 ## 🚀 TECH
 
+* [Lists](tech/lists.md)
 * [Zustand](tech/zustand.md)
