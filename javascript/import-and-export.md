@@ -1,4 +1,28 @@
-# import & export
+# Import Export
+
+## import
+
+```jsx
+// ./style/index.ts
+
+import * from './background';
+import * from './label';
+```
+
+```jsx
+// ./index.ts
+
+import * as S from './style';
+
+export default function Button() {
+return (
+    <S.Background>
+        <Button/>
+    </S.Background>
+)}
+```
+
+###
 
 ### import
 
