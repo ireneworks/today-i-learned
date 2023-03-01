@@ -15,6 +15,9 @@ import * from './label';
 import * as S from './style';
 
 export default function Button() {
+
+...
+
 return (
     <S.Background>
         <Button/>
