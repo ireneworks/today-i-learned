@@ -18,6 +18,32 @@ main {
         height: 60px;
     }
 }
+
+parent {
+    child {
+        height: 100%;
+        overflow-x: hidden;
+}
+
+parent {
+    display: flex;
+    flex-direction: column;
+    
+    child {
+      flex: 1 1 100%;  
+    }
+    
+    child {
+        flex: 1 1 80px;
+    }
+}
+
+parent {
+    child{
+        position: stikcy;
+        bottom: 0;
+    }
+}
 ```
 
 ```css
@@ -114,7 +140,6 @@ div + span {
     .child {
     
         /* flex 내 자식 요소 grow, shrink에 대해서 이해하기 */
-        
         flex: 1 1 40%;
     }
 }
@@ -149,5 +174,13 @@ li {
     button {
         /* 버튼 스타일 */
     }
+}
+```
+
+```css
+/* 오브젝트 크기에 맞게 조절 */
+
+a {
+ width: object-fit; 
 }
 ```
