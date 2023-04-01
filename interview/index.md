@@ -19,6 +19,11 @@
   * [ ] 개발 시 중요하게 생각하는 부분은 무엇인가
   * [ ] 클린코드란 무엇이라 생각하는가
 * [ ] 향후 3-5년 뒤는 어떻게 되고 싶은가
+* [ ] 어떤 동료들과 일하고 싶은가
+  * [ ] 어떤 개발자가 되고 싶은가
+* [ ] 선호하는 개발 문화는 어떤게 있는가
+* [ ] 개발이란 무엇이라 생각하는가
+*
 
 
 
@@ -41,12 +46,38 @@
 
 ### Javascript 관련
 
+* [ ] AJAX Promise Async Await
+* [ ] 실행 컨텍스트
+* [ ] 클로저
+* [ ] this
+* [ ] 변수
+* [ ] REST API
+* [ ] 에러 처리
+* [ ] 이벤트 캡쳐링
+* [ ] 이벤트 루프, 콜 스택, 태스크 큐
+* [ ] shallow vs deep copy
+
+
+
+### React, NEXT, Typescript 관련
+
+* [ ] useMemo vs useCallback
+* [ ] class vs function component (feat. hooks)
+* [ ] state 비동기 vs 동기
+* [ ] NEXT.js CSR vs SSR
+* [ ] interface vs type
+* [ ] 타입스크립트 사용 이유
+* [ ] 유틸 메소드 사용 경험
+* [ ] super type vs sub type
+
 
 
 ### CS 관련
 
-* [ ] 이벤트 버블링이 무엇인지
-  * [ ] 언제 이용하는가
+* [ ] 쿠키, 세션
+* [ ] CORS
+* [ ] XSRF, CSX
+* [ ] 웹팩, 번들링
 
 
 
