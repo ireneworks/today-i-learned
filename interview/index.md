@@ -48,7 +48,7 @@
 ### Javascript 관련
 
 * [ ] AJAX Promise Async Await
-* [ ] 실행 컨텍스트
+* [x] 실행 컨텍스트
 * [ ] 클로저
 * [ ] this
 * [x] 변수
