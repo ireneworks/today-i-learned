@@ -67,7 +67,7 @@
 * [x] class vs function component (feat. hooks)
 * [x] state 비동기 vs 동기
 * [x] NEXT.js CSR vs SSR
-* [ ] interface vs type
+* [x] interface vs type
 * [x] 타입스크립트 사용 이유
 * [ ] 유틸 메소드 사용 경험
 * [ ] super type vs sub type
