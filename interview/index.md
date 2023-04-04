@@ -47,7 +47,7 @@
 
 ### Javascript 관련
 
-* [ ] AJAX Promise Async Await
+* [ ] AJAX Promise Callback Async Await
 * [x] 실행 컨텍스트
 * [ ] 클로저
 * [ ] this
@@ -69,7 +69,7 @@
 * [x] NEXT.js CSR vs SSR
 * [x] interface vs type
 * [x] 타입스크립트 사용 이유
-* [ ] 유틸 메소드 사용 경험
+* [ ] 유틸 메소드
 * [ ] super type vs sub type
 * [x] react map 할 때 key 값이 필요한 이유는
 
