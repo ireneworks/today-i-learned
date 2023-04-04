@@ -51,7 +51,7 @@
 * [ ] 실행 컨텍스트
 * [ ] 클로저
 * [ ] this
-* [ ] 변수
+* [x] 변수
 * [ ] REST API
 * [ ] 에러 처리
 * [ ] 이벤트 캡쳐링
@@ -65,7 +65,7 @@
 * [ ] useMemo vs useCallback
 * [x] class vs function component (feat. hooks)
 * [ ] state 비동기 vs 동기
-* [ ] NEXT.js CSR vs SSR
+* [x] NEXT.js CSR vs SSR
 * [ ] interface vs type
 * [x] 타입스크립트 사용 이유
 * [ ] 유틸 메소드 사용 경험
