@@ -56,7 +56,7 @@
 * [ ] 에러 처리
 * [x] 이벤트 버블링
 * [ ] 이벤트 캡쳐링
-* [ ] 이벤트 루프, 콜 스택, 태스크 큐
+* [x] 이벤트 루프, 콜 스택, 태스크 큐
 * [ ] shallow vs deep copy
 
 
@@ -65,7 +65,7 @@
 
 * [ ] useMemo vs useCallback
 * [x] class vs function component (feat. hooks)
-* [ ] state 비동기 vs 동기
+* [x] state 비동기 vs 동기
 * [x] NEXT.js CSR vs SSR
 * [ ] interface vs type
 * [x] 타입스크립트 사용 이유
