@@ -80,3 +80,7 @@
 
 * [선택 정렬 Selection Sort](algorithm/selection-sort.md)
 * [Find longest substring without repeating characters](algorithm/find-longest-substring-without-repeating-characters.md)
+
+## 📔 Mathematics
+
+* [다항식 Polynomial](mathematics/polynomial.md)
