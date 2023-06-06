@@ -10,7 +10,7 @@
 
 DOM(The Document Object Model)이란 HTML, XML 문서를 구조화된 표현으로 제공하여 스크립트, 프로그래밍 언어가 DOM 구조에 접근하여 사용할 수 있게 연결시켜준다. 표준 인터페이스로 제공한다.
 
-DOM은 스크립트 언어를 통해 새롭게 생성하거나 수정할 수 있다. (DOM은 HTML과 자바스크립트를 이어주는 공간으로, 내가 작성한 HTML을 자바스크립트가 이해할 수 있도록 객체(object)로 변환한다.) **** [1)](https://www.howdy-mj.me/dom/what-is-dom/)
+DOM은 스크립트 언어를 통해 새롭게 생성하거나 수정할 수 있다. (DOM은 HTML과 자바스크립트를 이어주는 공간으로, 내가 작성한 HTML을 자바스크립트가 이해할 수 있도록 객체(object)로 변환한다.) [1)](https://www.howdy-mj.me/dom/what-is-dom/)
 
 DOM은 node와 object로 구성되어 있다. Node란 각각의 개체 (p, b, br 등) 태그뿐만 아니라 텍스트, 속성까지 모든 것을 의미한다. Object는 생성하거나 수정할 수 있는 Property, Method, Event를 포함한다. (DOM은 자바스크립트로 해당 문서에 노드 추가, 삭제, 변경, 이벤트 처리, 수정 등을 가능케 하는 API를 제공한다.) [1)](https://www.howdy-mj.me/dom/what-is-dom/)
 

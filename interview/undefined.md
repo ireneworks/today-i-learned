@@ -13,7 +13,7 @@
 
 
 
-**최적화 방법** [**1)**](https://beomy.github.io/tech/browser/reflow-repaint/)****
+**최적화 방법** [**1)**](https://beomy.github.io/tech/browser/reflow-repaint/)
 
 * 불필요한 태그 사용은 지양하고 최소한의 태그 사용으로 작게 만든다.
 * 애니메이션의 경우 초당 프레임이 지속적인 reflow를 발생시키기 때문에 퀄리티와 퍼포먼스에서 타협점을 찾는다.
@@ -66,13 +66,7 @@
 
 
 
-| 항목            | CSR                          | SSR                            |
-| ------------- | ---------------------------- | ------------------------------ |
-| **페이지 구성 방식** | SPA(Single Page Application) | MPA(Multiple Page Application) |
-| **페이지 로딩 시간** | 초기 로딩 느림 이후 TTV, TTI 갭 없음    | 초기 로딩 속도 빠름, 페이지 로딩 시 깜빡임      |
-| **SEO 대응**    | 빈 HTML로 SEO 불리               | 완성된 HTML로 SEO 유리               |
-| **서버 자원 사용**  | 서버 부하 적음                     | 서버 부하                          |
-| **애플리케이션**    | 인터렉션이 많은 애플리케이션              | 커머스, 신문 등                      |
+<table><thead><tr><th width="160">항목</th><th>CSR</th><th>SSR</th></tr></thead><tbody><tr><td><strong>페이지 구성 방식</strong></td><td>SPA(Single Page Application)</td><td>MPA(Multiple Page Application)</td></tr><tr><td><strong>페이지 로딩 시간</strong></td><td>초기 로딩 느림 이후 TTV, TTI 갭 없음</td><td>초기 로딩 속도 빠름, 페이지 로딩 시 깜빡임</td></tr><tr><td><strong>SEO 대응</strong></td><td>빈 HTML로 SEO 불리</td><td>완성된 HTML로 SEO 유리</td></tr><tr><td><strong>서버 자원 사용</strong></td><td>서버 부하 적음</td><td>서버 부하</td></tr><tr><td><strong>애플리케이션</strong></td><td>인터렉션이 많은 애플리케이션</td><td>커머스, 신문 등</td></tr></tbody></table>
 
 진행했던 프로젝트는 커머스 비즈니스이기 때문에 SEO가 중요한 플랫폼이고 이를 위해 Next.js를 도입했다.
 
