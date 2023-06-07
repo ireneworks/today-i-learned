@@ -53,3 +53,8 @@ const Input = ({isLoggedIn, username}) => {
     )
 }
 ```
+
+
+
+**Managing State**
+
