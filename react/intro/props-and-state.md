@@ -20,5 +20,5 @@ function add (a:number, b:number):number {
 
 
 
-그래서 state가 비동기적으로 실행되는 이유도 랜더링이 완료된 후에 값을 갱신함으로써 불필요한 랜더링을 방지하며 전달되는 값이 중간에 변할 수 없기 때문 아닌가?
+그래서 state가 비동기적으로 실행되는 이유도 랜더링이 완료된 후에 값을 갱신함으로써 불필요한 랜더링을 방지하며 react element는 immutable하기 때문에 element가 생성된 후에는 children, props를 수정할 수 없다.
 
