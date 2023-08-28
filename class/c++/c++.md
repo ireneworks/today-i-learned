@@ -38,7 +38,7 @@ layout:
 
 고정소수점 Fixed-point 방식 (overflow 되면 안됨, 2진수의 경우 가장 오른쪽에 점 고정)
 
-<table><thead><tr><th width="177">Data Type</th><th>Description</th></tr></thead><tbody><tr><td>정수 자료형</td><td><p><strong>문자</strong> char</p><p><strong>정수</strong> int, short, long, long long</p><p>bool</p></td></tr><tr><td>실수 자료형</td><td>float, double, long double</td></tr></tbody></table>
+<table><thead><tr><th width="177">Data Type</th><th>Description</th></tr></thead><tbody><tr><td>정수 자료형</td><td><p><strong>문자</strong> char</p><p><strong>정수</strong> short &#x3C; int &#x3C; long &#x3C; long long</p><p>bool</p></td></tr><tr><td>실수 자료형</td><td>float, double, long double</td></tr></tbody></table>
 
 
 
