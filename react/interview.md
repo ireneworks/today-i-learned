@@ -34,15 +34,15 @@
 
 #### 리액트 생명주기
 
-triggering
+최초 랜더링
 
-rendering
+**triggering 리액트에게 어떤걸 랜더링할지 알려줌**
 
-commit
+**rendering props style 등 을 통해 가상 DOM을 그리면서 이전 가상 DOM과 다른 부분을 체크한다.**
 
+**commit 가상 DOM을 통해 리얼 DOM에 필요한 부분만 변경한다. 이때 ref도 심는다.**
 
-
-
+useEffect 시작
 
 ```jsx
 useEffect(() => {}); // 랜더링 될 때 마다
