@@ -97,5 +97,7 @@
 
 ## Class
 
+* [자료구조 Data Structure](class/data-structure/README.md)
+  * [배열 Array](class/data-structure/array.md)
 * [C++ 프로그래밍](class/c++/README.md)
   * [C++ 기초](class/c++/c++.md)
