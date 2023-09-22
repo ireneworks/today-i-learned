@@ -4,7 +4,7 @@
 
 
 
-<figure><img src="../../.gitbook/assets/data-types-and-sizes.webp" alt=""><figcaption><p>ㅇㅅData</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/data-types-and-sizes.webp" alt=""><figcaption><p>Data Type</p></figcaption></figure>
 
 
 
