@@ -36,8 +36,8 @@ arr\[0] 으로부터 값을 구하려면 int의 크기 4바이트 \* n (인덱�
 
 리스트 내 값 삭제시 인덱스를 기준으로 값을 모두 이동하지 않고 포인터를 통해 앞 뒤 참조를 변경한다.
 
-[https://whyhard.tistory.com/5](https://whyhard.tistory.com/5)
+{% embed url="https://whyhard.tistory.com/5" %}
 
-
+{% embed url="https://blog.naver.com/PostView.naver?blogId=nanf3302&logNo=221939911465&parentCategoryNo=188&categoryNo=&viewDate=&isShowPopularPosts=true&from=search" %}
 
 
