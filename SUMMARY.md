@@ -68,7 +68,7 @@
 * [왜 리덕스를 사용할까 Why Redux](redux/why-redux.md)
 * [플럭스 Flux](redux/flux.md)
 
-## 넥스트 Nextjs
+## 📬 넥스트 Nextjs
 
 * [Pages](nextjs/pages.md)
 
@@ -76,6 +76,7 @@
 
 * [목록](interview/undefined.md)
 * [Index](interview/index.md)
+* [2024 Plans](interview/2024-plans.md)
 
 ## 🚀 TECH
 
@@ -95,7 +96,7 @@
 
 * [데이터베이스 Database](database/database.md)
 
-## Class
+## 📝 Class
 
 * [자료구조 Data Structure](class/data-structure/README.md)
   * [배열 Array](class/data-structure/array.md)
