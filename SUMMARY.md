@@ -103,3 +103,5 @@
   * [배열 Array](class/data-structure/array.md)
 * [C++ 프로그래밍](class/c++/README.md)
   * [C++ 기초](class/c++/c++.md)
+* [소프트웨어 공학 Software engineering](class/software-engineering/README.md)
+  * [소프트웨어 개요](class/software-engineering/undefined.md)
