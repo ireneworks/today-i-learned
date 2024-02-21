@@ -19,6 +19,7 @@
 
 ## 💡 CS 50
 
+* [인터프리터 Interpreter](cs-50/interpreter.md)
 * [Computational Thinking](cs-50/computational-thinking.md)
 
 ## ✨ 자바스크립트 Javascript
