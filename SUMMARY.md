@@ -16,10 +16,10 @@
 * [노드 패키지 매니저 Node Package Manager](development/npm.md)
 * [브라우저 랜더링 Browser Rendering Process](interview/browser-rendering-process.md)
 * [교차 출처 리소스 공유 CORS](interview/cors.md)
+* [인터프리터 Interpreter](development/interpreter.md)
 
 ## 💡 CS 50
 
-* [인터프리터 Interpreter](cs-50/interpreter.md)
 * [Computational Thinking](cs-50/computational-thinking.md)
 
 ## ✨ 자바스크립트 Javascript

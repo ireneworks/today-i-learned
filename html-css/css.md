@@ -184,3 +184,13 @@ a {
  width: object-fit; 
 }
 ```
+
+
+
+```css
+/* 하위 레이어 선택 */
+
+div {
+    pointer-events: none;
+}
+```
