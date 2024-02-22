@@ -35,7 +35,7 @@
 
 
 
-### HTML/CSS 관련
+### HTML/CSS
 
 * [x] 사용해본 태그들 어떤게 있는지
 * [x] 시멘틱 마크업이란
@@ -45,7 +45,7 @@
 
 
 
-### Javascript 관련
+### Javascript
 
 * [ ] AJAX Promise Callback Async Await
 * [x] 실행 컨텍스트
@@ -61,23 +61,57 @@
 
 
 
-### React, NEXT, Typescript 관련
+### React
 
-* [ ] useMemo vs useCallback
-* [x] class vs function component (feat. hooks)
-* [x] state 비동기 vs 동기
-* [x] NEXT.js CSR vs SSR
-* [x] interface vs type
-* [x] 타입스크립트 사용 이유
+* [ ] 리액트 사용 이유
+  * [ ] MVC 패턴
+  * [ ] 브라우저 랜더링
+    * [ ] Virtual DOM vs Real DOM
+    * [ ] react map 할 때 key 값 필요한 이유
+    * [ ] 생명주기
+      * [ ] useEffect
+      * [ ] deps
+      * [ ] useMemo vs useCallback
+* [ ] 상태 관리
+  * [ ] 제어 vs 비제어 컴포넌트
+    * [ ] Ref
+  * [ ] state 비동기 vs 동기
+  * [ ] context API, zustand
+  * [ ] props vs state
+    * [ ] 순수 함수
+* [ ] class vs function component (feat. hooks)
+
+
+
+## React-query
+
+* [ ] ss
+
+
+
+## TypeScript
+
+* [ ] interface vs type
+* [ ] 타입스크립트 사용 이유
 * [ ] 유틸 메소드
 * [ ] super type vs sub type
-* [x] react map 할 때 key 값이 필요한 이유는
+
+
+
+## SSR
+
+* [x] CSR vs SSR
+* [ ] Next 특징
 
 
 
 ### CS 관련
 
-* [x] 쿠키, 세션
+* [ ] 프레임워크 vs 라이브러리
+* [x] 웹 스토리지
+  * [ ] 쿠키
+  * [ ] 로컬 스토리지
+  * [ ] 세션 스토리지
 * [x] CORS
 * [ ] XSS, CSRF
 * [x] 웹팩, 번들링
