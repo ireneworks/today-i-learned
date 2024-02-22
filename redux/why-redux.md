@@ -8,7 +8,7 @@ View -> Components
 Controller -> Logics in components
 ```
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Problem of MVC Pattern</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Problem of MVC Pattern</p></figcaption></figure>
 
 React의 경우 단방향 데이터 흐름을 갖고 있다. 다만 컴포넌트 안에 컴포넌트와 같이 nested 구조로 설계를 하다보면 다양한 상태 값들을 관리하기가 쉽지 않다. 자식 컴포넌트까지 상태 값을 내려주거나, 다양한 곳에서 상태 값을 업데이트하기 어려울 수 있다.
 

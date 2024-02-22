@@ -57,8 +57,6 @@
   * [Props and State](react/intro/props-and-state.md)
   * [Hooks](react/intro/hooks.md)
 * [Concepts](react/concepts.md)
-* [React Features](react/react-features.md)
-* [props](react/props.md)
 
 ## 🚦 타입스크립트 Typescript
 
