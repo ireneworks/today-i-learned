@@ -62,7 +62,7 @@
 
 * [Page 1](typescript/page-1.md)
 
-## 🗃 리덕스 Redux
+## 🗃️ 리덕스 Redux
 
 * [왜 리덕스를 사용할까 Why Redux](redux/why-redux.md)
 * [플럭스 Flux](redux/flux.md)
@@ -92,7 +92,7 @@
 
 * [다항식 Polynomial](mathematics/polynomial.md)
 
-## 🗂 Database
+## 🗂️ Database
 
 * [데이터베이스 Database](database/database.md)
 
