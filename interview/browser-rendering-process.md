@@ -56,16 +56,7 @@ DOM과 CSSOM 생성 후 두개를 합쳐서 랜더트리를 생성한다.
 
 (리페인트만 일어나는 속성) background, color, text-decoration, border-style, border-radius&#x20;
 
-## 가상 DOM Virtual DOM
-
-다음과 같은 문제를 해결하기 위해 만들어졌다.&#x20;
-
-* DOM 조작에 의한 랜더링의 비효율적인 문제&#x20;
-* SPA(Single Application Page)의 복잡도 증가에 따른 최적화 및 유지보수의 어려움 [5)](https://jeong-pro.tistory.com/210)
+##
 
 ![6)](../.gitbook/assets/elm-runtime-virtual-dom.svg)
-
-가상 DOM은 여러 수정사항이 있어도 이전 상태와 비교해서 달라진 부분을 모아 한번만 real-DOM에 전달해서 한번 랜더링 된다. (`useState`과 같다.) 변경 사항을 **일괄 처리**하고 호출을 통해 **한 번에** 실제 돔에 적용한다. 따라서, 리플로우와 리페인트를 최소화한다. [8)](https://velog.io/@kim-jaemin420/reactVitual-Dom%EC%9D%B4%EB%9E%80-What-is-Virtual-Dom)
-
-![7)](../.gitbook/assets/virtualdom.webp)
 
