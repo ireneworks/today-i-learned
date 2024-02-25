@@ -117,11 +117,19 @@ React.createElement('h1', {id: 'title'}, 'Hello World')
 </ul>
 ```
 
-Memoization된 부분이 있다면 이전 가상 돔 객체과 비교하면서 새롭게 만들지 아니면 이전 가상 돔 객체 그대로 랜더하지 않을지 결정한다. deps를 기준으로 Memoization 여부를 결정할 수 있다. 얕은 복사로 비교하기 때문에 레퍼런스 기준으로 변경 여부를 확인한다.
+Memoization된 부분이 있다면 이전 가상 돔 객체과 비교하면서 새롭게 만들지 아니면 이전 가상 돔 객체 그대로 랜더하지 않을지 결정한다.
 
-\*useMemo vs useCallback vs React.memo
+\*메모이제이션
 
-useMemo와 useCallback 모두 동일하게 memoization 하여 값을 리턴한다. 다만 useCallback의 경우 함수에 초점을 맞추어 제공하는 것이다.
+연산이 많은 경우 초기 렌더링의 속도가 느릴 수 있나 이는 캐싱을 위한 점이고 이후 리랜더링이 될 때는 훨씬 속도가 빠른 결과를 확인할 수 있다. [2)](https://github.com/yeonjuan/dev-blog/blob/master/JavaScript/should-you-really-use-usememo.md) 그래서 연산을 몇 번 처리하느냐에 따라 복잡도가 높아지기 때문에 복잡한 계산을 해야하는 경우 사용하는 것이 적합할 수 있다.
+
+다만 deps에 작성한 값이 계속 변경이 일어날 가능성이 높다면 오히려 메모이제이션 하지 않는게 좋을 것으로 보인다. 이는 deps를 작성하지 않은 것과 동일하기 때문에 지속적으로 초기 랜더링이 느릴 것으로 생각된다.
+
+> `useCallback(fn, deps)`은 `useMemo(() => fn, deps)`와 같습니다.
+
+useMemo는 반드시 return이 필요하다.
+
+
 
 
 
