@@ -14,9 +14,9 @@ description: stack/queue
 (()(  // false
 ```
 
-가장 먼저 후위연산식 풀면서 괄호를 어떻게 처리했는지를 찾아봤었는데 바로 매칭시키지 못했다.
+한쌍으로 구분이 되는지 보려고 했으나 이는 `(())()` 를 만족시키지 못하기 때문에 제대로 된 접근이 아니였다. 기존에 풀어봤던 후위연산식 문제에서 괄호도 stack으로 처리하는 방법을 대입해보다가 [블로그](https://jaejade.tistory.com/133)에서 힌트를 얻었다.
 
-한쌍으로 구분이 되는지 보려고 했으나 이는 `(())()` 를 만족시키지 못하기 때문에 이것도 제대로 된 접근이 아니였다. 기존에 후위연산식에서 stack으로 처리하는 방법을 대입해보다가 [블로그](https://jaejade.tistory.com/133)에서 힌트를 얻었다.
+가장 중요한 점은 **`stack`** 문제라는 것이고, stack은 LIFO(Last in First Out) 이다.
 
 ```javascript
 function solution(str) {
@@ -39,6 +39,19 @@ function solution(str) {
     // 만약 쌍이 안 맞아서 남아있다면 false
     return stack.length === 0;
 }
+```
+
+```javascript
+// stack log
+
+solution('(())()');
+
+['(']
+['(', '(']
+['(']
+[]
+['(']
+[]
 ```
 
 <div align="left">
