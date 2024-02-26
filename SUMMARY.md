@@ -51,7 +51,7 @@
 
 ## 🎁 리액트 React
 
-* [면접 Interview](react/interview.md)
+* [리액트 톧아보기 Overview](react/overview.md)
 * [Intro](react/intro/README.md)
   * [State Immutability](react/intro/state-immutability.md)
   * [Props and State](react/intro/props-and-state.md)

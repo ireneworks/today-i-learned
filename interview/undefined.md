@@ -1,32 +1,5 @@
 # 목록
 
-## 브라우저 동작원리
-
-1. 유저가 브라우저에 입력한 주소는 DNS 서버에서 실제 해당 서버가 위치한 곳으로 연결
-2. 실제 서버에서 HTML/CSS/JS 리소스 다운로드
-3. HTML/CSS를 파싱해서 HTML은 DOM 트리, CSS는 CSSOM 트리를 생성
-4. 생성한 두개의 트리를 합쳐 랜더트리를 생성
-5. 생성된 랜더트리의 각 노드들을 계산해서 위치, 크기 등과 같은 레이아웃을 만듦
-6. paint 단계에서 각 노드들을 실제 화면에 그림
-
-유저가 이벤트를 발생시켜 새로운 노드가 추가되거나 변경된다면 reflow, repaint가 일어난다. 많은 reflow와 repaint가 일어나게 되면 성능상 이슈가 발생한다. 많이 발생하지 않도록 최적화 시켜야한다.&#x20;
-
-
-
-**최적화 방법** [**1)**](https://beomy.github.io/tech/browser/reflow-repaint/)
-
-* 불필요한 태그 사용은 지양하고 최소한의 태그 사용으로 작게 만든다.
-* 애니메이션의 경우 초당 프레임이 지속적인 reflow를 발생시키기 때문에 퀄리티와 퍼포먼스에서 타협점을 찾는다.
-* 변경이 필요한 경우, 가장 하위 노드에 적용하면 reflow 영향을 최소화 할 수 있다.
-
-
-
-| Reflow                                                | Repaint                                                                         |
-| ----------------------------------------------------- | ------------------------------------------------------------------------------- |
-| `position`, `width`, `height`, `margin`, `padding` 등  | `background`, `color`, `box-shadow`, `border-radius`, `outline`, `visibility` 등 |
-
-
-
 ## CORS(Cross-origin Resource Sharing)
 
 <figure><img src="../.gitbook/assets/mdn-url-all.png" alt=""><figcaption><p>URL <a href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_URL">2)</a></p></figcaption></figure>
