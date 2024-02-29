@@ -77,6 +77,7 @@
 * [목록](interview/undefined.md)
 * [Index](interview/index.md)
 * [2024 Plans](interview/2024-plans.md)
+* [query parameter와 fetch 고찰](interview/query-parameter-fetch.md)
 
 ## 🚀 TECH
 
