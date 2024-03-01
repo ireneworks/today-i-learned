@@ -20,8 +20,6 @@ description: 쿼리 파라미터와 데이터 가져오기에 대한 고찰
 
 1. 상태가 변경될 때 마다 데이터 fetch
 2. 쿼리가 변경될 때 마다 데이터 fetch
-3. 이니셜 랜더 때 쿼리 전달하지 않고 fetch
-*  필터 적용시 해당 필터가 다른 필터 만큼 페이지 수가 다르다면?
 ```
 
 #### 1번 커먼 유즈케이스&#x20;
@@ -53,8 +51,8 @@ useEffect(() => {
 // state update
 // data fetch
 
-const [params, setParams] = useState('all');
-const {search} = useLocation();
+const [state, setState] = useState('all');
+const { search } = useLocation();
 
 useEffect(() => {
     // get query parameter
@@ -64,7 +62,28 @@ useEffect(() => {
 useEffect(() => {
     // data fetch with params
     // query update
-}, [params])
+}, [state])
 ```
 
-ㅋ
+쿼리가 변경될 때마다 상태를 업데이트하고 상태가 바뀔때마다 데이터를 fetch하는 방법으로 생각했으나 무한루프에 걸려 결국에 문제가 발생한다.&#x20;
+
+```jsx
+const [state, setState] = useState('all');
+const componentMounted = useRef(false);
+
+useEffect(() => {
+    if(componentMounted.current) {
+        // data fetch with params
+        // query update
+    }
+}, [state])
+
+useEffect(() => {
+    // get query parameter
+    // state update
+    componentMounted.current = true;
+}, [])
+```
+
+처음 랜더링될 때 useEffect가 실행되면서 ref가 false이기 때문에 실행되지 않는다. 두번째 useEffect가 실행되면서 쿼리를 가져와 상태를 업데이트 한다. 이후 **`componentMounted`** 가 true로 변한다. state가 변경되었기 때문에 첫번째 useEffect가 실행되면서 데이터 fetch 후 쿼리를 업데이트 한다.
+
