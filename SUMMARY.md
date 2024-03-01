@@ -77,7 +77,7 @@
 * [목록](interview/undefined.md)
 * [Index](interview/index.md)
 * [2024 Plans](interview/2024-plans.md)
-* [Best practice for query parameter  and fetch](interview/best-practice-for-query-parameter-and-fetch.md)
+* [Best practice for query parameter  and fetch](interview/query-parameter-fetch.md)
 
 ## 🚀 TECH
 
