@@ -1,8 +1,14 @@
-# query parameter와 fetch 고찰
+---
+description: 쿼리 파라미터와 데이터 가져오기에 대한 고찰
+---
 
-state 값만으로도 계속 데이터 fetch
+# Best practice for query parameter  and fetch
 
-query parameter
+### 필터 이용 시 쿼리 파라미터를 같이 변경해줘야해?
+
+state를 기준으로 할지 쿼리 파라미터를 기준으로 데이터를 fetch할지 고민하다가 문득 쿼리도 업데이트 해야하나? 라는 생각이 들어 고민해보았다. 프로덕트 요구사항에 따라 달라질 수 있으나, 일반적인 커머스 필터 UX를 고려하여 접근해본다면 다음과 같은 사용자 경험을 제공할 수 있을 것이다.
+
+* ㅂ
 
 ```
 // state update
