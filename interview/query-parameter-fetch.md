@@ -16,9 +16,27 @@ description: 쿼리 파라미터와 데이터 가져오기에 대한 고찰
 ### 어떻게 데이터 fetch를 하는게 좋을까?
 
 ```
+// AC
+
+1. 상태가 변경될 때 마다 데이터 fetch
+2. 쿼리가 변경될 때 마다 데이터 fetch
+3. 이니셜 랜더 때 쿼리 전달하지 않고 fetch
+*  필터 적용시 해당 필터가 다른 필터 만큼 페이지 수가 다르다면?
+```
+
+#### 1번 커먼 유즈케이스&#x20;
+
+```jsx
 // state update
 // data fetch
 // query parameter update
+
+const [params, setParams] = useState('all');
+
+useEffect(() => {
+    // data fetch with params
+    // query update
+}, [params])
 ```
 
 유저가 이벤트를 발생시키면 상태가 변경되고 데이터를 fetch 한 후에 쿼리를 변경시킨다.
@@ -28,31 +46,25 @@ description: 쿼리 파라미터와 데이터 가져오기에 대한 고찰
 * 데이터 fetch 중 쿼리가 변경 될 수 있음
 * 데이터 로딩으로 인한 변경되어야 할 화면과의 갭 발생
 
-```
-// AC
-
-1. 상태가 변경될 때 마다 데이터 fetch
-2. 이니셜 랜더 때 쿼리 전달하지 않고 fetch
-3. 쿼리가 변경될 때 마다 데이터 fetch
-```
-
-생각해 볼 수 있는 요구사항은 총 3가지가 있을 것이다. 2번의 경우 커머스 필터 UX를 확인해보면 이니셜 랜더에서는 쿼리를 변경하지 않고 필터를 한번이라도 이용하면 그때 쿼리에 업데이트 한다.
+#### 2번 쿼리가 변경될 때 마다 데이터 fetch
 
 ```jsx
-// AC 1. 상태가 변경될 때 마다 데이터 fetch
+// query parameter update
+// state update
+// data fetch
+
+const [params, setParams] = useState('all');
+const {search} = useLocation();
 
 useEffect(() => {
-    // data fetch
+    // get query parameter
+    // state update
+}, [search])
+
+useEffect(() => {
+    // data fetch with params
     // query update
-}, [state])
+}, [params])
 ```
 
-
-
-유즈케이스 2번에서 해야할 일은 이니셜 랜더시 default 값으로 데이터를 fetch 해야한다. 하지만 1번에서 데이터를 fetch 할 때 state 값으로 쿼리를 날리고 있기에 state 값을 넣지 않고
-
-```
-// data fetch
-// query parameter update
-```
-
+ㅋ
