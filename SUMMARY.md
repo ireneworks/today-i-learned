@@ -106,5 +106,6 @@
   * [C++ 기초](class/c++/c++.md)
 * [소프트웨어 공학 Software engineering](class/software-engineering/README.md)
   * [소프트웨어 개요 Software overview](class/software-engineering/software-overview.md)
+  * [소프트웨어 프로세스 Software process](class/software-engineering/software-process.md)
 * [자바 Java](class/java/README.md)
   * [자바와 객체지향 프로그래밍 Java and OOP(Object-oriented programming)](class/java/java-and-oop-object-oriented-programming.md)
