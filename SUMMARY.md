@@ -86,7 +86,7 @@
 
 ## 🧬 Algorithm
 
-* [후위 표기식 Postfix expression](algorithm/postfix-expression.md)
+* [후위 연산자 Postfix expression](algorithm/postfix-notation.md)
 * [선택 정렬 Selection Sort](algorithm/selection-sort.md)
 * [Find longest substring without repeating characters](algorithm/find-longest-substring-without-repeating-characters.md)
 * [올바른 괄호 Valid Parentheses](algorithm/valid-parentheses.md)

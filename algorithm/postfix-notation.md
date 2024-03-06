@@ -1,4 +1,4 @@
-# 후위 표현법 Postfix notation
+# 후위 연산자 Postfix expression
 
 ```javascript
 function solution(value) {
