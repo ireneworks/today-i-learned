@@ -87,6 +87,7 @@
 
 ## 🧬 Algorithm
 
+* [이진수 변환 Binary Number](algorithm/binary-number.md)
 * [후위 연산자 Postfix expression](algorithm/postfix-notation.md)
 * [선택 정렬 Selection Sort](algorithm/selection-sort.md)
 * [Find longest substring without repeating characters](algorithm/find-longest-substring-without-repeating-characters.md)
