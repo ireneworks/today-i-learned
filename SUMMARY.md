@@ -73,6 +73,7 @@
 
 ## ✅ 면접 Interview
 
+* [개발 역량 Development competency](interview/development-competency.md)
 * [Implement experiences](interview/implement-experiences.md)
 * [목록](interview/undefined.md)
 * [Index](interview/index.md)
