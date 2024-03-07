@@ -145,7 +145,18 @@ Memoization된 부분이 있다면 이전 가상 돔 객체과 비교하면서 �
 
 
 
-\*useEffect
+### 컴포넌트 생명주기
+
+<figure><img src="../.gitbook/assets/img-1 (2).png" alt=""><figcaption><p>React component life cycle <a href="https://adjh54.tistory.com/43">3)</a></p></figcaption></figure>
+
+1. 컴포넌트 호출
+2. 컴포넌트 내부 함수 수행
+3. return() 함수 실행
+4. useEffect 실행
+
+
+
+useEffect
 
 useEffect는 commit phase까지 완료하여 화면에 랜더링이 되고 난 후에 실행한다. 변형, 구독, 타이머, 로깅 또는 다른 부작용(side effects)에 사용하기 적합하다. 사용자에게 노출되는 DOM 변경은 사용자가 노출된 내용의 불일치를 경험하지 않도록 다음 화면을 다 그리기 전에 동기화 되어야 한다.
 
