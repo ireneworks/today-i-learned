@@ -89,7 +89,7 @@
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/img (2).png" alt="" width="375"><figcaption><p>Iterative process <a href="https://atoz-develop.tistory.com/entry/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EA%B0%9C%EB%B0%9C-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4-%EB%B0%98%EB%B3%B5%EC%A0%81-%EB%AA%A8%EB%8D%B8%EC%9D%98-%EC%A2%85%EB%A5%98%EC%99%80-%EC%B0%A8%EC%9D%B4%EC%A0%90">2)</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/img (2) (1).png" alt="" width="375"><figcaption><p>Iterative process <a href="https://atoz-develop.tistory.com/entry/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EA%B0%9C%EB%B0%9C-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4-%EB%B0%98%EB%B3%B5%EC%A0%81-%EB%AA%A8%EB%8D%B8%EC%9D%98-%EC%A2%85%EB%A5%98%EC%99%80-%EC%B0%A8%EC%9D%B4%EC%A0%90">2)</a></p></figcaption></figure>
 
 </div>
 

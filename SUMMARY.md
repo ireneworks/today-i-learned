@@ -53,7 +53,7 @@
 
 * [리액트 톧아보기 Overview](react/overview.md)
 * [Intro](react/intro/README.md)
-  * [State Immutability](react/intro/state-immutability.md)
+  * [상태의 불변성 State Immutability](react/intro/state-immutability.md)
   * [Props and State](react/intro/props-and-state.md)
   * [Hooks](react/intro/hooks.md)
 * [Concepts](react/concepts.md)
