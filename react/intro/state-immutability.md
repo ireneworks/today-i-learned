@@ -20,7 +20,7 @@ description: 리액트의 상태가 불변해야하는 이유는?
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/img.png" alt="" width="375"><figcaption><p>Object type in memory <a href="https://ji-u.tistory.com/21">2)</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/img.png" alt="" width="375"><figcaption><p>Object type in memory <a href="https://ji-u.tistory.com/21">1)</a></p></figcaption></figure>
 
 </div>
 
@@ -32,7 +32,7 @@ description: 리액트의 상태가 불변해야하는 이유는?
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/Call_by_value_and_call_by_reference (1).png" alt=""><figcaption><p>Call by value vs call by reference <a href="https://press.rebus.community/programmingfundamentals/chapter/call-by-value-vs-call-by-reference/">1)</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Call_by_value_and_call_by_reference (1).png" alt=""><figcaption><p>Call by value vs call by reference <a href="https://press.rebus.community/programmingfundamentals/chapter/call-by-value-vs-call-by-reference/">2)</a></p></figcaption></figure>
 
 </div>
 
