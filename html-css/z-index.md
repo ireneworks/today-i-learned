@@ -16,7 +16,7 @@ css 프로퍼티 중 z-index는  z축 순서를 지정할 수 있다. 웹에서 
 <div class='green' /> // z-index 10
 ```
 
-어떤 순서대로 쌓이는지 확인해보면 당연히 여러가지 css 속성에 따라 달라질 수 있으나 순수히 `z-index` 만 놓고 본다면 다음과 같을 것이다. 부모 엘레멘트가 가진 속성부터 적용된다고 보면 쉬울 것 같다. 부모가 가진 stacking context 내에서만 blue는 유효하기 때문에 부모끼리의 `z-index`와는 관련없다.
+어떤 순서대로 쌓이는지 확인해보면 당연히 여러가지 css 속성에 따라 달라질 수 있으나 순수히 `z-index` 만 놓고 본다면 다음과 같을 것이다. 부모가 가진 stacking context 내에서만 blue는 유효하기 때문에 부모끼리의 `z-index`와는 관련없다.
 
 <div align="left">
 
@@ -24,3 +24,6 @@ css 프로퍼티 중 z-index는  z축 순서를 지정할 수 있다. 웹에서 
 
 </div>
 
+
+
+{% embed url="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_positioned_layout/Understanding_z-index/Stacking_context" %}
