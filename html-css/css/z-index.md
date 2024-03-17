@@ -2,7 +2,7 @@
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/1_uGPV3qEF7yBq4PD0zua19A (3).png" alt="" width="375"><figcaption><p>z axis <a href="https://velog.io/@kskim625/%ED%9A%A8%EC%9C%A8%EC%A0%81%EC%9D%B8-%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98-2">1)</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/1_uGPV3qEF7yBq4PD0zua19A (3).png" alt="" width="375"><figcaption><p>z axis <a href="https://velog.io/@kskim625/%ED%9A%A8%EC%9C%A8%EC%A0%81%EC%9D%B8-%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98-2">1)</a></p></figcaption></figure>
 
 </div>
 
@@ -20,7 +20,7 @@ css 프로퍼티 중 z-index는  z축 순서를 지정할 수 있다. 웹에서 
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/스크린샷 2024-03-17 오후 10.21.45.png" alt="" width="188"><figcaption><p>element z index order</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/스크린샷 2024-03-17 오후 10.21.45.png" alt="" width="188"><figcaption><p>element z index order</p></figcaption></figure>
 
 </div>
 
