@@ -4,6 +4,8 @@ description: 알고리즘 종류
 
 # Types of algorithms
 
+<figure><img src="../.gitbook/assets/ds-introduction2.png" alt=""><figcaption><p>Data structure <a href="https://www.javatpoint.com/data-structure-introduction">1)</a></p></figcaption></figure>
+
 검색
 
 * 순차/선형 검색
