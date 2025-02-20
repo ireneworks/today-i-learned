@@ -2,7 +2,7 @@
 
 캐나다로 출국하기 전에 여러 행정 처리가 필요했는데 예를 들면 집을 계약하고 나서 필요한 유틸리티 계정 생성이나 테넌트 보험, 그리고 운전 면허증 교환을 위한 Service Ontario 예약 등이 있다. 이런 행정 처리에는 현지 번호가 필수였고, 출국까지 시간도 별로 남지 않았고 너무 당황스러웠지만 빠르게 수퍼셀을 통해 캐나다 유심 서비스를 신청하게 되었다.
 
-[https://pf.kakao.com/\_xlvhCT](https://pf.kakao.com/_xlvhCT)
+카톡 추가 > [https://pf.kakao.com/\_xlvhCT](https://pf.kakao.com/_xlvhCT)
 
 ## 수퍼셀을 알게 된 경로
 
