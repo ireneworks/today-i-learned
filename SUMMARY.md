@@ -113,10 +113,11 @@
 * [자바 Java](class/java/README.md)
   * [자바와 객체지향 프로그래밍 Java and OOP(Object-oriented programming)](class/java/java-and-oop-object-oriented-programming.md)
 
-## 🇨🇦 Canada
-
-* [캐나다 워홀 휴대폰 eSIM: 수퍼셀로 캐나다 유심 준비 완료!](canada/undefined.md)
-
 ## Java
 
 * [자바가 뭐지?](java/undefined.md)
+
+## CA EI
+
+* [CA EI](ca-ei/ca-ei.md)
+* [to coddle](ca-ei/to-coddle.md)
