@@ -120,5 +120,3 @@
 ## CA EI
 
 * [CA EI](ca-ei/ca-ei.md)
-* [to coddle](ca-ei/to-coddle.md)
-* [Process](ca-ei/process.md)
