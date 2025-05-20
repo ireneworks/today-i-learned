@@ -24,6 +24,10 @@
 
 * [Computational Thinking](cs-50/computational-thinking.md)
 
+## 🖥️ WEB
+
+* [Web storage](web/web-storage.md)
+
 ## ✨ 자바스크립트 Javascript
 
 * [자바스크립트란 What is JavaScript](javascript/what-is-javascript.md)
@@ -120,7 +124,3 @@
 ## CA EI
 
 * [CA EI](ca-ei/ca-ei.md)
-
-## 🖥️ WEB
-
-* [Web storage](web/web-storage.md)
