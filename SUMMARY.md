@@ -120,3 +120,7 @@
 ## CA EI
 
 * [CA EI](ca-ei/ca-ei.md)
+
+## 🖥️ WEB
+
+* [Web storage](web/web-storage.md)
