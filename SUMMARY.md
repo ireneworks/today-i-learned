@@ -1,6 +1,6 @@
 # Table of contents
 
-* [개요 Overview](README.md)
+* [Overview](README.md)
 
 ## 📝 HTML/CSS
 
