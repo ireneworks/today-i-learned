@@ -17,7 +17,10 @@ As part of our new user acquisition goal, I conducted a development investigatio
 
 1. All of the assets were in the `public folder`&#x20;
    1. It's unnecessary to deploy all assets for every change, especially with frequent updates to items like banners or product iterations, making dynamic file management inefficient.
-   2. Static assets such as logo and favicon that does not need frequent updates
+   2. Static assets include items like logos and favicons that don't require frequent updates.
+2. All of the assets are not optimized
+   1. Not used next/image tag. (CORS errors occurred because Akamai was not configured for Next.js images.)
+   2. loading time got poor performance bad user experience
 
 
 
