@@ -26,13 +26,13 @@ As part of our new user acquisition goal, I conducted a development investigatio
 
 ### 해결 Solution
 
-1. 에셋 분리
+1. Asset seperation
    1. 정적 자원과 동적 자원을 분리하고 동적 자원을 S3에서 가져오도록 수정
       1. S3 API 연동 (디자인 팀과 에셋 올리는 방법 설정, 이름으로 불러올 수 있게 룰 설정, 에셋 유효기간 설정)
-2. 에셋 최적화
+2. Asset optimization
    1. 이미지, 영상을 WebP, WebM으로 변경
       1. 아이콘은 디자인 시스템으로 제공
-   2. next/image 태그 사용
+   2. Use next/image tag
       1. TTV 최적화를 위해 placeholder, priority, layout 등을 이용한 룰 설정 (LCP, CLS 고려)
 
 
