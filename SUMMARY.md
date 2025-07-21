@@ -1,6 +1,8 @@
 # Table of contents
 
 * [Overview](README.md)
+* [Interview](interview/README.md)
+  * [Performance optimization](interview/performance-optimization.md)
 
 ## 📝 HTML/CSS
 
@@ -79,9 +81,9 @@
 
 ## ✅ 면접 Interview
 
-* [Index](interview/index.md)
-* [Implement experiences](interview/implement-experiences.md)
-* [Best practice for query parameter  and fetch](interview/query-parameter-fetch.md)
+* [Index](interview-1/index.md)
+* [Implement experiences](interview-1/implement-experiences.md)
+* [Best practice for query parameter  and fetch](interview-1/best-practice-for-query-parameter-and-fetch.md)
 
 ## 🚀 TECH
 
