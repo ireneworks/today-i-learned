@@ -9,9 +9,9 @@ What technologies did you use, and what challenges did you face during developme
 
 ### 발견 Observation
 
-신규 유저 유입 프로젝트를 진행중이었고, 첫 메인 페이지의 로딩(랜더링)속도가 굉장히 느림
-
 As part of our new user acquisition goal, I conducted a development investigation into the performance of the gateway page. I found that the initial rendering performance of the gateway page was very poor.
+
+
 
 ### 문제 Problem Statement
 
@@ -20,18 +20,7 @@ As part of our new user acquisition goal, I conducted a development investigatio
    2. Static assets include items like logos and favicons that don't require frequent updates.
 2. All of the assets are not optimized
    1. Not used next/image tag. (CORS errors occurred because Akamai was not configured for Next.js images.)
-   2. loading time got poor performance bad user experience
-
-
-
-
-
-1. `public` 폴더에 모든 에셋을 포함하고 있음
-   1. 파일 변경이 필요한 경우 지속적인 배포 필요 (예를 들면 배너, 프로덕트의 잦은 iteration 등) 동적 파일 관리 측면에서 비효율적
-   2. 정적이라 하면 로고, 파비콘 등 비교적 긴 시간 동안 변경이 없는 경우 (헤더, 푸터, terms 등)
-2. 모든 에셋이 비 최적화
-   1. next/image 태그를 사용하지 않음 (next 이미지 설정이 akamai를 사용하는데 akamai 설정이 안되어 있어 CORS 에러 발생)
-   2. 처음 랜딩 시 페이지 로딩 시간이 길어지고 페이지 성능이 저하되어 고객에게 나쁜 경험 제공
+   2. The initial page loading time increased, and poor page performance led to a bad user experience.
 
 
 
