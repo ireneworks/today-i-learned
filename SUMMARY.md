@@ -90,6 +90,10 @@
 * [Lists](tech/lists.md)
 * [Zustand](tech/zustand.md)
 
+## 🎼 System Design
+
+* [E-Commerce Marketplace](system-design/e-commerce-marketplace.md)
+
 ## 🧬 Algorithm
 
 * [Types of algorithms](algorithm/types-of-algorithms.md)
